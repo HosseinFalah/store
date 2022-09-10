@@ -1,20 +1,11 @@
-import { ThemeProvider, createTheme } from "@mui/material/styles"
-import { Button } from "@mui/material";
-
-const theme = createTheme({
-    typography: {
-        fontFamily: "IRANSansDN",
-    },
-    direction: "rtl"
-})
+import Layout from "./Components/Layout/Layout";
+import Router from "./Routers/Router";
 
 const App = () => {
     return (
-        <ThemeProvider theme={theme}>
-            <div>
-                <Button variant="contained" color="success">اضافه کردن</Button>
-            </div>
-        </ThemeProvider>
+        <Layout>
+            <Router/>
+        </Layout>
     )
 }
 

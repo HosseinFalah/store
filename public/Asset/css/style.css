@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'IRANSansDN';
+    src: url('../font/IranSansDN.eot');
+    src: url('../font/IranSansDN.eot?#iefix') format('embedded-opentype'),
+        url('../font/IranSansDN.woff2') format('woff2'),
+        url('../font/IranSansDN.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    font-family: "IRANSansDN";
+}
+
+.navbar{
+    padding: 15px 0px;
+}
+
+.btn-login{
+    border: 1px solid #ebebeb;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.btn-login::before{
+    content: "";
+    background: url("../icon/exit.png");
+    width: 15px;
+    height: 15px;
+    margin: 0px 0px -3px 5px;
+    fill: #414141;
+    display: inline-block;
+    background-size: cover;
+}
+
+.form-control-search{
+    position: relative;
+    border: none;
+    outline: none;
+    background: #eee;
+    width: 60%;
+    padding: 10px 40px;
+    border-radius: 8px !important;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #9f9f9f;
+    padding: 13px 15px;
+}
+
+.btn-shopping{
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    background: none;
+    margin-right: 10px;
+    color: #6a6a6a;
+    font-size: 18px;
+}
+
+.shopping-counter{
+    position: absolute;
+    top: -6px;
+    right: -15px;
+    color: #eee;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: #d40d0d;
+    border-radius: 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

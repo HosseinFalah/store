@@ -1,12 +1,12 @@
 {
   "1": {
     "id": 1,
-    "name": "Apple Watch Series 5",
+    "name": "اپل واچ سری 5",
     "brand": "apple",
     "price": 339.99,
     "rating": 4,
     "inStock": true,
-    "description": "On Retina display that never sleeps, so it’s easy to see the time and other important information, without raising or tapping the display. New location features, from a built-in compass to current elevation, help users better navigate their day, while international emergency calling1 allows customers to call emergency services directly from Apple Watch in over 150 countries, even without iPhone nearby. Apple Watch Series 5 is available in a wider range of materials, including aluminium, stainless steel, ceramic and an all-new titanium.",
+    "description": "اپل در ماه سپتامبر 2019 از سری پنجم ساعت هوشمند «Apple Watch» رونمایی کرد که در کنار قابلیت‌ها و جذابیت‌های ظاهری و فنی سری‌های پیشین، ویژگی‌های جدیدی را برای جلب‌توجه مخاطبان این گجت گران‌قیمت به همراه دارد. اپل‌واچ سری 5، مدل « Silver Aluminum Case With green Sport Band » از ساعت‌های هوشمند زیبای این برند است. این مدل با شیشه‌ی مقاومی با یاقوت کبود و بندی اسپرت یا سیلیکونی با روانه بازار شده است. این اپل‌واچ 40 میلی‌متری ویژگی‌های خاصی دارد که می‌‍توان از میان آن‌ها به مقاومت در برابر آب تا عمق 50 متری اشاره کرد. مقاومت در برابر آب این مدل موجب می‌شود، کاربر هنگام بارش باران یا شست‌وشوی دست، بدون نگرانی از این گجت استفاده ‌کند، همچنین قادر به استفاده از آن برای برخی ورزش‌های آبی (نظیر شنا در آب‌های کم‌عمق و کوتاه‌مدت) باشد. شرکت اپل برای اینکه این قابلیت به بهترین شکل کارایی‌اش را حفظ کند، فناوری جالبی را برای قبل و بعد از تماس ساعت با آب در نظر گرفته است. سنسورهای متنوعی که برای پایش فعالیت‌های فیزیکی در نظر گرفته شده است (نسل دوم سنجش ضربان قلب و دیگر سنسورهای معمول)، سیستم مسیریابی جی‌پی‌اس داخلی که حتی در هنگام دوربودن از گوشی آیفون هم امکان ثبت مسیر و مسیریابی را میسر می‌سازد، از قابلیت‌های جذاب این مدل از سری جدید اپل‌واچ هستند. درمجموع سرعت عملکرد پردازشی و گرافیکی قدرتمندتر، مقاومت قابل‌توجه و کارآمد در برابر آب، سنسورهایی که با وجود GPS مجزا تکمیل‌تر شده‌اند و همچنین صفحه‌ای با روشنایی بیشتر که لذت چک‌کردن اعلان‌ها را دوچندان می‌کند، دیگر بهانه‌ای برای صاحبان آیفون و ارادتمندان این شرکت خلاق و خوش‌ذوق باقی نمی‌گذارد که از این گجت حرفه‌ای و کارآمد با طعم خوش فناوری بی‌نصیب بمانند. گفتنی است این محصول جدید اپل دارای صفحه نمایش همیشه روشن (Always On Display) است که همیشه اعلان‌ها را به کاربر اعلام می‌کند.",
     "images": [
       "/images/apple-watch-series-5-1.png",
       "/images/apple-watch-series-5-2.png",
@@ -24,12 +24,12 @@
   },
   "2": {
     "id": 2,
-    "name": "Apple iPhone 11 (64GB)",
+    "name": "اپل آیفون 11 (64 گیگابایت)",
     "brand": "apple",
     "price": 669.99,
     "rating": 5,
     "inStock": true,
-    "description": "The Apple iPhone 11 is a great smartphone, which was loaded with a lot of quality features. It comes with a waterproof and dustproof body which is the key attraction of the device. The excellent set of cameras offer excellent images as well as capable of recording crisp videos. However, expandable storage and a fingerprint scanner would have made it a perfect option to go for around this price range.",
+    "description": "شکی نیست که گوشی‌های iPhone 11 Pro و 11 Pro Max محصولات محبوب و مشهور امسال هستند و تقریباً تمام توجه کاربران و علاقه‌مندان به دنیای فناوری اطلاعات را به خود معطوف کرده‌اند. اما نمی‌توان از این حقیقت به‌سادگی گذشت که آیفون 11 ارزش خرید بالایی دارد. شاید تصور کنید با قیمت پایین‌تری که iPhone 11 نسبت به دیگر برادران خود دارد، ویژگی‌های بسیاری هم در آن نادیده گرفته شده‌اند اما در عمل اصلاً چنین نیست؛ همه طرفداران اپل به صفحه‌نمایش باکیفیت، باتری کمی ‌قوی‌تر و امکان زوم اپتیکال نیاز ندارند. پس اگر شما هم می‌خواهید «آیفون جدید» اپل را داشته باشید و نمی‌خواهید هزینه زیادی صرف کنید، با این بررسی مختصر از Apple iPhone 11 همراه باشید.",
     "images": [
       "/images/apple-iphone-11-1.png",
       "/images/apple-iphone-11-2.png",
@@ -47,12 +47,12 @@
   },
   "3": {
     "id": 3,
-    "name": "Apple iMac 2021",
+    "name": "اپل آی مک 2021",
     "brand": "apple",
     "price": 2499.99,
     "rating": 5,
     "inStock": true,
-    "description": "The all-in-one for all. If you can dream it, you can do it on iMac. It’s beautifully & incredibly intuitive and packed with tools that let you take any idea to the next level. And the new 27-inch model elevates the experience in way, with faster processors and graphics, expanded memory and storage, enhanced audio and video capabilities, and an even more stunning Retina 5K display. It’s the desktop that does it all — better and faster than ever.",
+    "description": "همه کاره برای همه. اگر می توانید آن را رویا کنید، می توانید آن را در iMac انجام دهید. زیبا و فوق العاده شهودی و مملو از ابزارهایی است که به شما امکان می دهد هر ایده ای را به سطح بعدی ببرید. و مدل جدید 27 اینچی با پردازنده‌ها و گرافیک‌های سریع‌تر، حافظه و فضای ذخیره‌سازی افزایش یافته، قابلیت‌های صوتی و تصویری پیشرفته‌تر، و نمایشگر رتینا 5K حتی خیره‌کننده‌تر، تجربه را به‌طرقی ارتقا می‌دهد. این دسکتاپ است که همه کارها را انجام می دهد - بهتر و سریعتر از همیشه.",
     "images": [
       "/images/apple-imac-2021-1.png",
       "/images/apple-imac-2021-2.png",
@@ -70,12 +70,12 @@
   },
   "4": {
     "id": 4,
-    "name": "MacBook Air - 13.3 inch Display",
+    "name": "مک بوک ایر - صفحه نمایش 13.3 اینچی",
     "brand": "apple",
     "price": 999.99,
     "rating": 4,
     "inStock": true,
-    "description": "MacBook Air is a thin, lightweight laptop from Apple. MacBook Air features up to 8GB of memory, a fifth-generation Intel Core processor, Thunderbolt 2, great built-in apps, and all-day battery life.1 Its thin, light, and durable enough to take everywhere you go-and powerful enough to do everything once you get there, better.",
+    "description": "موردانتظارترین و تأثیرگذارترین رویداد اپل در سال 2020، نخستین کامپیوتر‌های مک با پردازنده‌ی اختصاصی این شرکت را به‌ارمغان آورد. مک‌بوک ایر نخستین لپ‌تاپ اپل با پردازنده‌ی مبتنی‌بر ARM کوپرتینونشین‌ها موسوم به M1 خواهد بود.همان‌طور که انتظار می‌رفت مک‌بوک ایر به‌لحاظ ظاهر و طراحی هیچ تفاوتی با نسخه‌ی اینتل ندارد و همانند گذشته است. تغییرات اصلی مک‌ بوک ایر در داخل آن رخ می‌دهد؛ جایی‌که تراشه اختصاصی M1 توان پردازشی موردنیاز کاربر را با بهره‌وری بالاتر و مصرف انرژی کمتر فراهم می‌سازد. این تراشه در دو نسخه‌ با گرافیک 7 یا 8 هسته‌ای درون مک بوک ایر به‌کار می‌رود؛ اما در هر دو نسخه، پردازنده‌ی مرکزی 8 هسته‌ای و واحد پردازش عصبی 16 هسته‌ای دردسترس هستند. به‌مدد بهینگی بسیار بیشتر تراشه‌‌ی اختصاصی M1، کوپرتینونشین‌ها مک‌ بوک ایر را با سیستم خنک‌کننده‌ی پسیو (بدون فن) تولید می‌کنند.اپل می‌گوید CPU داخل تراشه‌ی M1 به‌مدد 4 هسته‌ی قدرتمند و 4 هسته‌ی کم‌مصرفش در مجموع بالغ‌بر 3٫5 برابر و GPU هشت هسته‌ای آن نیز تا 5 برابر سریع‌تر از نسل گذشته عمل می‌کنند. از سوی دیگر به‌لطف واحد پردازش عصبی 16 هسته‌ای M1 پردازش‌های مبتنی‌بر یادگیری ماشین نظیر تشخیص چهره یا شناسایی اجسام تا 9 برابر سریع‌تر صورت می‌گیرد. براساس ادعای اپل، تراشه‌ی M1 موجود در داخل مک بوک ایر از «98 درصد لپ‌تاپ‌های فروخته‌شده در سال گذشته» سریع‌تر است. اپل می‌گوید به‌لطف کنترلر حافظه‌ی موجود در M1 و حافظه‌های جدید، ماژول‌های SSD مک‌بوک ایر بالغ‌بر 2 برابر سریع‌تر از گذشته هستند.اولترابوک محبوب اپل جک 3٫5 میلی‌متری هدفون و دو پورت USB 4 با پشتیبانی از USB 3.1 Gen 2 (پهنای باند 10 گیگابیت‌برثانیه) و تاندربولت 3 (پهنای باند 40 گیگابیت‌برثانیه) را دراختیار کاربر می‌گذارد. این پورت‌‌ها هم‌اکنون از گرافیک اکسترنال پشتیبانی نمی‌کنند؛ اما به‌کمک آن‌ها می‌توان یک نمایشگر اکسترنال با وضوح 6K و نرخ نوسازی 60 هرتز را به مک‌بوک ایر متصل کرد.مک بوک ایر اسپیکرهای استریو با پشتیبانی از دالبی اتموس، ماژول Wi-Fi 6 و بلوتوث 5 را در بطن خود دارد. این لپ‌تاپ همانند گذشته از وب‌کم 720p استفاده می‌کند؛ اما اکنون به‌لطف پردازنده‌ی سیگنال تصویر داخل تراشه‌ی M1 تصاویر را با نویز کمتر و گستره‌ی دینامیکی وسیع‌تری ثبت می‌کند.",
     "images": [
       "/images/mac-book-air-1.png",
       "/images/mac-book-air-2.png",
@@ -98,7 +98,7 @@
     "price": 9.99,
     "rating": 2,
     "inStock": true,
-    "description": "The OnePlus 7 Pro features a brand new design, with a glass back and front and curved sides. The phone feels very premium but’s it’s also very heavy. The Nebula Blue variant looks slick but it’s quite slippery, which makes single-handed use a real challenge. It has a massive 6.67-inch ‘Fluid AMOLED’ display with a QHD+ resolution, 90Hz refresh rate and support for HDR 10+ content. The display produces vivid colours, deep blacks and has good viewing angles.",
+    "description": "وان پلاس همواره در عرصه گوشی‌های هوشمند توانسته است عملکرد بسیار خوبی را داشته باشد و گوشی‌های هوشمند با‌کیفیتی را با مشخصات فنی مناسب و قدرتمند روانه بازار کرده است. Nord CE 5G هم یکی از گوشی‌های هوشمند میان‌رده سطح بالایی این شرکت است که در جایگاه یک گوشی میان‌رده به مشخصات فنی قدرتمندی مجهز شده است. در نمای روبه‌رویی این گوشی به صفحه‌نمایش با ابعاد 6.43 اینچ و رزولوشن 1080×2400 پیکسل از نوع امولد مجهز شده است. صفحه‌نمایشی با‌کیفیت که توانایی ارائه نرخ بروزرسانی 90 هرتز و نمایش 410 پیکسل در هر اینچ را دارد. حسگر اثر انگشت از نوع اپتیکال هم زیر صفحه‌نمایش قرار گرفته است. در قسمت پشتی این گوشی به سه سنسور دوربین مجهز شده است. یک سنسور دوربین اصلی با رزولوشن 64 مگاپیکسل و گشودگی دریچه دیافراگم f/1.8 از نوع عریض در کنار سنسور 8 مگاپیکسل از نوع فوق عریض (ultra wide)با زاویه دید 119 درجه و سنسور 2 مگاپیکسل از نوع سنجش عمق، سنسور‌های دوربین سه‌گانه Nord CE 5G را تشکیل می‌دهند. برای دوربین سلفی هم سنسور با رزولوشن 16 مگاپیکسل در نظر گرفته شده است. پردازنده اسنپدراگون 750G 5G شرکت کوالکام سوای عملکرد بسیار خوب، توانایی پشتیبانی از شبکه‌های اینترنتی نسل پنجم یا همان 5G را هم دارد. باتری با میزان ظرفیت 4500 میلی‌آمپر‌ساعت در کنار شارژر قدرتمند با توان 30 وات و توانایی شارژ 0 تا 70 درصد در مدت زمان 30 دقیقه، از دیگر مشخصات در نظر گرفته شده برای این گوشی هوشمند میان‌رده است.",
     "images": [
       "/images/one-plus-7-pro-1.png",
       "/images/one-plus-7-pro-2.png",
@@ -116,11 +116,11 @@
   },
   "6": {
     "id": 6,
-    "name": "OneOdio A71 Wired Headphones",
+    "name": "هدفون سیمی OneOdio A71",
     "brand": "one-odio",
     "rating": 3,
     "inStock": false,
-    "description": "Omnidirectional detachable boom mic upgrades the headphones into a professional headset for gaming, business, podcasting and taking calls on the go. Better pick up your voice. Control most electric devices through voice activation, or schedule a ride with Uber and order a pizza. OneOdio A71 Wired Headphones voice-controlled device turns any home into a smart device on a smartphone or tablet.",
+    "description": "با هدست وان اُدیو OneOdio Wireless+DJ A70 از صدای پرقدرت ، واضح و شفاف لذت ببرید . به کمک درایورهای 40 میلی متری باس پرقدرت ، صدای شفاف خواننده و تونهای بالای موسیقی را با کیفیت بالا در کنار هم تجربه کنید . گوشیهای بزرگ و نرم این هدست ، برای راحتی شما در استفاده طولانی مدت همراه با فیلتر کردن صداهای محیط طراحی شده اند . هدبند قابل تنظیم و منعطف این هدست به شما امکان می دهد که به راحتی آن را بر روی سر خود تنظیم نمائید . هدست وان اودیو A70 با کیفیت بالای طراحی و صدای پرقدرت خود در حالت بلوتوث با آخرین نسل آیفون ، آیپد و تمام گوشی ها و تبلت های اندرویدی و در حالت با سیم با مک ، پی سی و انواع کنسولهای بازی سازگاری کامل دارد . به کمک تکنولوژی بلوتوث 4.0 و قابلیت کاهش نویز از مکالمه شفاف لذت ببرید . بی سیم مکالمه کنید باسیم بازی کنید ! با یک بار شارژ 25 ساعت از وان اودیو A70 استفاده کنید .قابلیت جمع شدن و جابجایی آسان، قابلیت چرخش 90 درجه و استفاده بصورت DJ در کنار استفاده روزمره را نیز دارد.",
     "images": [
       "/images/one-odio-a71-wired-headphones-1.png",
       "/images/one-odio-a71-wired-headphones-2.png",
@@ -142,7 +142,7 @@
     "brand": "oculus",
     "rating": 1,
     "inStock": false,
-    "description": "All-in-one VR: No PC. No wires. No limits. Oculus quest is an all-in-one gaming system built for virtual reality. Now you can play almost anywhere with just a VR headset and controllers. Oculus touch controllers: arm yourself with the award-winning Oculus touch controllers. Your slashes, throws and grab appear in VR with intuitive, realistic Precision, transporting your hands and gestures right into the game",
+    "description": "کمپانی Oculus که از زیر مجموعه های شرکت بزرگ Samsung می باشد با فاصله زیادی از دیگر تولید کنندگان هدست های واقعیت مجازی مشغول به فعالیت می باشد و در تلاش برای تولید محتوای بیشتر برای هدست های واقعیت مجازی است که تا کنون نسبت به دیگر برند ها، موفق ترین بوده است . جدید ترین محصول این کمپانی Oculus Quest 2 نام دارد که در حقیقت نسخه ارتقاء یافته Oculus Quest به حساب می آید.ساختار هدست واقعیت مجازی Oculus Quest 2 از جنس پلی کربنات ساخته شده , استفاده از این متریال به کاهش وزن هدست و افزایش مقاومت آن کمک بسیاری می کند. لازم به به ذکر است که کنترلر های Oculus Quest 2 نیز از این جنس ساخته شده اند . همانند مدل پیشین اسپیکر های 3 بعدی Oculus Quest 2 در قسمت دور هدبند هدست جای داده شده اند که طراحی آنها توسط کمپانی AKG انجام شده است. نمایشگر هدست واقعیت مجازی اکیولس کوئست 2 دارای دو نمایشگر HDR با رزولوشن 1832×1920 پیکسل است که مجهز به سیستم IPD هستند تا به شکل دقیقی تصویر را در مقابل چشمان شما قرار دهند , این نمایشگرها نیز از فرکانس بالای تازه سازی تصاویر استفاده می کنند هنگام بازی با آن احساس بهتری داشته باشید.یکی دیگر از نکات شایان ذکر در خصوص این هدست , ساختار کاملاً بی سیم آن است , بر خلاف مدل های قدیمی که وابستگی بسیاری به رایانه یا تلفن همراه داشتند این مدل کاملاً بی نیاز از سیم است, و این به معنی استفاده از یک سخت افزار قدرتمند در دل این هدست میباشد که کار پردازش محتوای واقعیت مجازی را برعهده دارد , استفاده از چیپست Qualcomm Snapdragon XR2 و 6 گیگابایت رم باعث شده تا چنین امری میسر شود.کنترلر های اکیولس کوئست 2 باز طراحی شده اند , استفاده از شتاب سنج و ژیروسکوپ های با دقتتر باعث شده تا دقت این کنترلرها تا 2 برابر نسبت به مدل های دیگر افزایش یابد همچنین طراحی آنها ارگونومیک تر شده بنابر این کاربران احساس راحتی بیشتری هنگام کارکردن با آن خواهند داشت . .همراه با این محصول کارت طلایی نصب 40 عنوان بازی ارائه میشود",
     "images": [
       "/images/oculus-quest-all-in-one-vr-1.png",
       "/images/oculus-quest-all-in-one-vr-2.png",
@@ -160,12 +160,12 @@
   },
   "8": {
     "id": 8,
-    "name": "Galaxy Book Pro 360",
+    "name": "گلکسی بوک پرو 360",
     "brand": "samsung",
     "price": 1199,
     "rating": 4,
     "inStock": true,
-    "description": "With a Super AMOLED touch screen, a 360-degree hinge, an 11th Generation Intel Core i7 processor, and unique software features, the Galaxy Book Pro 360 is the sleekest 15-inch 2-in-1 convertible notebook out there.",
+    "description": "گلکسی بوک پرو 360 با صفحه نمایش لمسی Super AMOLED، لولای 360 درجه، پردازنده نسل یازدهم اینتل Core i7 و ویژگی های نرم افزاری منحصر به فرد، براق ترین نوت بوک 15 اینچی 2 در 1 موجود است.",
     "images": [
       "/images/galaxy-book-pro-360-1.png",
       "/images/galaxy-book-pro-360-2.png",
@@ -183,12 +183,12 @@
   },
   "9": {
     "id": 9,
-    "name": "Willful Smart Watch for Men Women 2020",
+    "name": "ساعت هوشمند Willful برای مردان زنانه 2020",
     "brand": "willful",
     "price": 29.99,
     "rating": 5,
     "inStock": true,
-    "description": "Are you looking for a smart watch, which can not only easily keep tracking of your steps, calories, heart rate and sleep quality, but also keep you informed of incoming calls.",
+    "description": "آیا به دنبال ساعت هوشمندی هستید که نه تنها بتواند به راحتی گام ها، کالری، ضربان قلب و کیفیت خواب شما را ردیابی کند، بلکه شما را از تماس های دریافتی نیز مطلع کند.",
     "images": [
       "/images/willful-smart-watch-for-men-women-2020-1.png",
       "/images/willful-smart-watch-for-men-women-2020-2.png",
@@ -211,7 +211,7 @@
     "price": 338.99,
     "rating": 5,
     "inStock": true,
-    "description": "Optimized for desktop virtualization and cloud-based applications, the intuitive HP t430 Thin Client is easy for end users to understand and simple for IT administrators to maintain.",
+    "description": "بهینه‌سازی شده برای مجازی‌سازی دسکتاپ و برنامه‌های مبتنی بر ابر، HP t430 Thin Client بصری برای کاربران نهایی قابل درک است و برای مدیران فناوری اطلاعات نگهداری آن آسان است.",
     "images": [
       "/images/hp-t430-dts-1.png",
       "/images/hp-t430-dts-2.png",
@@ -229,11 +229,11 @@
   },
   "11": {
     "id": 11,
-    "name": "Apple Watch Series 4",
+    "name": "اپل واچ سری 4",
     "brand": "apple",
     "rating": 2,
     "inStock": false,
-    "description": "An expansive Retina display so you can see more at a glance. Advanced sensors to track all the ways you move. Powerful features to keep you healthy and safe. Apple Watch SE is a lot of watch for a lot less than you expected.",
+    "description": "یک صفحه نمایش رتینا گسترده تا بتوانید در یک نگاه بیشتر ببینید. حسگرهای پیشرفته برای ردیابی تمام راه های حرکت شما. ویژگی های قدرتمند برای حفظ سلامت و امنیت شما. Apple Watch SE ساعت های زیادی با قیمت بسیار کمتر از آنچه انتظار داشتید است.",
     "images": [
       "/images/apple-watch-series-4-1.png",
       "/images/apple-watch-series-4-2.png",
@@ -251,12 +251,12 @@
   },
   "12": {
     "id": 12,
-    "name": "iPhone 12 mini",
+    "name": "آیفون 12 مینی",
     "brand": "apple",
     "price": 779.99,
     "rating": 5,
     "inStock": true,
-    "description": "Massive features. Mini iPhone. iPhone 12 mini packs big features in a 5.4-inch design. 5G to download movies on the fly and stream high-quality video. A beautifully bright and compact Super Retina XDR display. Ceramic Shield with 4x better drop performance. Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision HDR video recording, editing, and playback. Powerful A14 Bionic chip.",
+    "description": "ویژگی های عظیم مینی آیفون. آیفون 12 مینی ویژگی های بزرگی در طراحی 5.4 اینچی دارد. 5G برای دانلود فیلم در حال پرواز و پخش ویدیو با کیفیت بالا. یک صفحه نمایش فوق العاده روشن و جمع و جور Super Retina XDR. سپر سرامیکی با عملکرد افت 4 برابری بهتر. عکاسی باورنکردنی در نور کم با حالت شب در همه دوربین ها. ضبط، ویرایش و پخش ویدیو Dolby Vision HDR درجه یک سینما. تراشه قدرتمند A14 Bionic.",
     "images": [
       "/images/iphone-12-mini-1.png",
       "/images/iphone-12-mini-2.png",
@@ -278,7 +278,7 @@
     "brand": "samsung",
     "rating": 4,
     "inStock": false,
-    "description": "Samsung Galaxy Note20 puts the whole world in your pocket. This is not a smartphone as you know it. This is a computer suite in your pocket. This is high-level gaming on mobile. This is a pro-grade 8K camera and editing suite. This is the power phone that forever changes how you work and play.",
+    "description": "سامسونگ گلکسی نوت 20 تمام دنیا را در جیب شما قرار می دهد. این یک گوشی هوشمند آنطور که شما می دانید نیست. این مجموعه کامپیوتری در جیب شماست. این یک بازی سطح بالا در تلفن همراه است. این یک دوربین حرفه ای و مجموعه ویرایش 8K است. این تلفن قدرتمندی است که برای همیشه نحوه کار و بازی شما را تغییر می دهد.",
     "images": [
       "/images/galaxy-note20-ultra-1.png",
       "/images/galaxy-note20-ultra-2.png",
@@ -301,7 +301,7 @@
     "price": 749.99,
     "rating": 1,
     "inStock": true,
-    "description": "Mac mini is the affordable powerhouse that packs the entire Mac experience into a compact frame. Just connect your own display, keyboard, and mouse, and youre ready to make big things happen",
+    "description": "Mac mini نیروگاه مقرون به صرفه ای است که کل تجربه مک را در یک قاب جمع و جور قرار می دهد. فقط صفحه نمایش، صفحه کلید و ماوس خود را وصل کنید و آماده انجام کارهای بزرگ هستید",
     "images": [
       "/images/mac-mini-1.png",
       "/images/mac-mini-2.png",
@@ -319,12 +319,12 @@
   },
   "15": {
     "id": 15,
-    "name": "MacBook Pro - 13.30 inch Display",
+    "name": "مک بوک پرو - صفحه نمایش 13.30 اینچی",
     "brand": "apple",
     "price": 999.99,
     "rating": 3,
     "inStock": true,
-    "description": "Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.",
+    "description": "Apple MacBook Pro یک لپ تاپ macOS با صفحه نمایش 13.30 اینچی است که وضوح تصویر 2560x1600 پیکسل دارد. این گوشی دارای پردازنده Core i5 و 12 گیگابایت رم است. مک بوک پرو اپل دارای 512 گیگابایت حافظه SSD است.",
     "images": [
       "/images/macbook-pro-1.png",
       "/images/macbook-pro-2.png",
@@ -342,12 +342,12 @@
   },
   "16": {
     "id": 16,
-    "name": "Galaxy Active 2",
+    "name": "گلکسی اکتیو 2",
     "brand": "samsung",
     "price": 127.49,
     "rating": 4,
     "inStock": true,
-    "description": "The Samsung Galaxy Watch Active is a smartwatch developed by Samsung Electronics. It was announced on 20 February 2019. The Galaxy Watch Active was scheduled for availability in the United States starting on March 8, 2019. Wikipedia",
+    "description": "Samsung Galaxy Watch Active یک ساعت هوشمند است که توسط Samsung Electronics ساخته شده است. در 20 فوریه 2019 اعلام شد. Galaxy Watch Active قرار بود از 8 مارس 2019 در ایالات متحده در دسترس باشد. ویکی پدیا",
     "images": [
       "/images/galaxy-active-2-1.png",
       "/images/galaxy-active-2-2.png",
@@ -370,7 +370,7 @@
     "price": 197.0,
     "rating": 5,
     "inStock": true,
-    "description": "AirPods Pro are wireless Bluetooth in-ear headphones designed by Apple, initially released on October 30, 2019. They are Apples mid-range wireless headphones, sold alongside the base-level AirPods and highest-end AirPods Max.",
+    "description": "AirPods Pro هدفون‌های بی‌سیم بلوتوث داخلی هستند که توسط اپل طراحی شده‌اند و ابتدا در 30 اکتبر 2019 منتشر شدند. این هدفون‌های بی‌سیم میان‌رده اپل هستند که در کنار ایرپادهای سطح پایه و ایرپاد مکس بالاترین سطح فروخته می‌شوند.",
     "images": [
       "/images/airpods-pro-1.png",
       "/images/airpods-pro-2.png",
@@ -392,7 +392,7 @@
     "brand": "samsung",
     "rating": 5,
     "inStock": false,
-    "description": "Samsung Galaxy Buds Pro combines crytal-clear sound with unprecedented control, making it effortless to elevate everyday moments. Use intelligent Active Noise Cancellation to escape into your music at a moment’s notice, even in a noisy crowd. Close the distance with crystal-clear calls, so it always feels like you’re in the same room. And water won’t ruin your workout since the resistant Galaxy Buds Pro keeps the beat going even with a little rain.",
+    "description": "Samsung Galaxy Buds Pro صدای شفاف و شفاف را با کنترل بی‌سابقه ترکیب می‌کند و باعث می‌شود تا لحظات روزمره را بی‌دردسر جلوه دهید. از حذف هوشمند نویز فعال برای فرار به موسیقی خود در لحظه استفاده کنید، حتی در یک جمعیت پر سر و صدا. فاصله را با تماس‌های شفاف ببندید، تا همیشه احساس کنید در یک اتاق هستید. و آب تمرین شما را خراب نمی کند زیرا گلکسی بادز پرو مقاوم حتی با بارش اندکی نیز این ضربان را حفظ می کند.",
     "images": [
       "/images/galaxy-buds-pro-1.png",
       "/images/galaxy-buds-pro-2.png",
@@ -415,7 +415,7 @@
     "price": 1149.99,
     "rating": 4,
     "inStock": true,
-    "description": "HP Spectre X360 is a Windows 10 Professional laptop with a 13.30-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i7 processor and it comes with 8GB of RAM. The HP Spectre X360 packs 256GB of SSD storage. Graphics are powered by Intel Integrated UHD Graphics 620.",
+    "description": "HP Spectre X360 یک لپ تاپ حرفه ای ویندوز 10 با صفحه نمایش 13.30 اینچی با وضوح 1920x1080 پیکسل است. این گوشی دارای پردازنده Core i7 و 8 گیگابایت رم است. HP Spectre X360 دارای 256 گیگابایت حافظه SSD است. گرافیک ها توسط Intel Integrated UHD Graphics 620 پشتیبانی می شوند.",
     "images": [
       "/images/hp-spectre-x360-1.png",
       "/images/hp-spectre-x360-2.png",
@@ -437,7 +437,7 @@
     "brand": "beats",
     "rating": 3,
     "inStock": false,
-    "description": "Get inspired with Solo Pro noise cancelling wireless headphones. To deliver sound how you want it, Solo Pro features two listening modes: Active Noise Cancelling (ANC) and Transparency. Beats Pure ANC gives you the space to create with fully immersive sound, while Transparency helps you stay aware of your surroundings. Every detail of Solo Pro has been carefully considered, right down to the intuitive way the headphones turn on and off via folding.",
+    "description": "از هدفون های بی سیم حذف نویز Solo Pro الهام بگیرید. برای ارائه صدا آنطور که می خواهید، Solo Pro دارای دو حالت گوش دادن است: حذف نویز فعال (ANC) و شفافیت. Beats Pure ANC به شما فضایی برای ایجاد صدایی کاملا فراگیر می دهد، در حالی که شفافیت به شما کمک می کند از محیط اطراف خود آگاه باشید. تمام جزئیات Solo Pro به دقت در نظر گرفته شده است، دقیقاً تا نحوه روشن و خاموش کردن هدفون از طریق تا شدن.",
     "images": [
       "/images/beats-headphones-solo-pro-1.png",
       "/images/beats-headphones-solo-pro-2.png",
@@ -459,7 +459,7 @@
     "brand": "hp",
     "rating": 2,
     "inStock": false,
-    "description": "The clean and simple commercial design of the affordable HP 200 22 All-in-One PC looks great in your workspace. Powerful Intel® processors help you quickly get through daily tasks and the 21.5-inch diagonal display has plenty of room for collaboration with co-workers.",
+    "description": "طراحی تجاری تمیز و ساده کامپیوتر ارزان قیمت HP 200 22 All-in-One در فضای کاری شما عالی به نظر می رسد. پردازنده‌های قدرتمند Intel® به شما کمک می‌کنند تا کارهای روزانه را به سرعت انجام دهید و صفحه نمایش 21.5 اینچی مورب فضای زیادی برای همکاری با همکاران دارد.",
     "images": [
       "/images/hp-200-g4-1.png",
       "/images/hp-200-g4-2.png",
@@ -482,7 +482,7 @@
     "price": 1200.0,
     "rating": 1,
     "inStock": true,
-    "description": "HP Pavilion 24 Desktop 1TB SSD Win 10 PRO (Intel Core i5-8400T Processor with Turbo Boost to 3.30GHz, 16 GB RAM, 1 TB SSD, 24' Touchscreen FullHD, Win 10 PRO) PC Computer All-in-One",
+    "description": "HP Pavilion 24 Desktop 1TB SSD Win 10 PRO (پردازنده Intel Core i5-8400T با توربو بوست تا 3.30 گیگاهرتز، 16 گیگابایت رم، 1 ترابایت SSD، صفحه نمایش لمسی 24 اینچی FullHD، Win 10 PRO) کامپیوتر همه کاره",
     "images": [
       "/images/hp-pavilion-24-1.png",
       "/images/hp-pavilion-24-2.png",
@@ -505,7 +505,7 @@
     "price": 999.99,
     "rating": 5,
     "inStock": true,
-    "description": "The Samsung Galaxy Z Flip is an Android-based foldable smartphone developed by Samsung Electronics as part of the Samsung Galaxy Z series. Its existence was first revealed in an advertisement during the 2020 Academy Awards. Unveiled alongside the Galaxy S20 on February 11, 2020, it was released on February 14",
+    "description": "Samsung Galaxy Z Flip یک گوشی هوشمند تاشو مبتنی بر اندروید است که توسط Samsung Electronics به عنوان بخشی از سری Samsung Galaxy Z توسعه یافته است. وجود آن برای اولین بار در یک تبلیغ در جریان جوایز اسکار 2020 فاش شد. این گوشی در کنار گلکسی اس 20 در 11 فوریه 2020 رونمایی شد و در 14 فوریه منتشر شد.",
     "images": [
       "/images/galaxy-z-flip3-5g-1.png",
       "/images/galaxy-z-flip3-5g-2.png",
@@ -523,12 +523,12 @@
   },
   "24": {
     "id": 24,
-    "name": "Galaxy Watch 4",
+    "name": "گلکسی واچ 4",
     "brand": "samsung",
     "price": 249.99,
     "rating": 4,
     "inStock": true,
-    "description": "The Galaxy Watch is Samsung's most refined smartwatch due to its helpful fitness tracking and four-day battery life – if you opt for the larger 46mm size that we liked and recommend. All of this is packaged inside a sophisticated-looking circular silver-and-black smartwatch that has a rotating bezel for effortless menu navigation. Be warned, third-party apps are lacking and its iOS support is limited if you're using an iPhone. This is best for Samsung fans.",
+    "description": "گلکسی واچ به دلیل ردیابی تناسب اندام مفید و عمر باتری چهار روزه، پیشرفته ترین ساعت هوشمند سامسونگ است - اگر اندازه بزرگتر 46 میلی متری را انتخاب کنید که ما دوست داشتیم و توصیه می کنیم. همه این‌ها در یک ساعت هوشمند مدور نقره‌ای و مشکی با ظاهری پیچیده قرار گرفته‌اند که دارای یک قاب چرخان برای پیمایش آسان در منو است. هشدار داده شود، اگر از آیفون استفاده می کنید، برنامه های شخص ثالث وجود ندارد و پشتیبانی iOS آن محدود است. این برای طرفداران سامسونگ بهترین است.",
     "images": [
       "/images/galaxy-watch-4-1.png",
       "/images/galaxy-watch-4-2.png",
@@ -546,12 +546,12 @@
   },
   "25": {
     "id": 25,
-    "name": "Prometheus XVII Ultra Performance 17.3' QHD Gaming Laptop",
+    "name": "لپ تاپ گیمینگ Prometheus XVII Ultra Performance 17.3 اینچی QHD",
     "brand": "hp",
     "price": 1699.99,
     "rating": 5,
     "inStock": true,
-    "description": "The Prometheus XVII is is a leap towards gaming perfection.  An extremely impressive thermal design is crammed in to this beautifully crafted less than 1' thick laptop.  Creators and gamers unite as this chassis bodes an impressive 87.8% screen to body ratio with a 100% sRGB QHD crispy 165Hz display.  The hinge cap multi-LED RGB design provides flair when you want it or a discrete appearance when you need it.  A durable soft touch rubber finish on the keyboard deck provides a comfortable feel and resists fingerprints well.  Take your seat and enjoy the show!",
+    "description": "Prometheus XVII یک جهش به سمت کمال بازی است. یک طراحی حرارتی بسیار چشمگیر در این لپ‌تاپ با ضخامت کمتر از 1 اینچ به زیبایی ساخته شده است. سازندگان و گیمرها با هم متحد می شوند زیرا این شاسی دارای نسبت صفحه نمایش به بدنه چشمگیر 87.8٪ با صفحه نمایش 100٪ sRGB QHD ترد 165 هرتزی است. طراحی RGB چند ال ای دی کلاهک لولا در مواقعی که شما می خواهید ظاهری مجزا دارد و در صورت نیاز ظاهری مجزا دارد. روکش لاستیکی لمسی نرم و بادوام روی صفحه‌کلید احساس راحتی می‌کند و به خوبی در برابر اثر انگشت مقاومت می‌کند. روی صندلی خود بنشینید و از نمایش لذت ببرید!",
     "images": [
       "/images/prometheus-xvll-ultra-performance-1.png",
       "/images/prometheus-xvll-ultra-performance-2.png",
@@ -574,7 +574,7 @@
     "price": 549.99,
     "rating": 3,
     "inStock": true,
-    "description": "",
+    "description": "جایزه بهترین Chromebook توسط CNN Underscored! قدرت و سرعتی که سزاوار آن هستید: چه کار کنید. مطالعه یا استراحت Galaxy Chromebook 2 شما را تحت پوشش قرار داده است. با جدیدترین پردازنده اینتل Core. سرعت فوق العاده بالایی خواهید داشت. به علاوه. Wi-Fi 6 GIG+ که تا 3 برابر سریعتر از Wi-Fi استاندارد است، عملکرد فوق‌العاده روانی را به شما می‌دهد.",
     "images": [
       "/images/galaxy-chromebook-2-1.png",
       "/images/galaxy-chromebook-2-2.png",
@@ -592,12 +592,12 @@
   },
   "27": {
     "id": 27,
-    "name": "Apple iMac 2020",
+    "name": "اپل آی مک 2020",
     "brand": "apple",
     "price": 1354.99,
     "rating": 3,
     "inStock": true,
-    "description": "Take your creative ideas from conception to completion with the 27' iMac with Retina 5K Display from Apple. Intuitive and packed with powerful tools, you'll be able to take your ideas to the next level, and the 27' display will further elevate your experience, alongside an improved processor, graphics, memory and storage, and enhanced audio and video capabilities.",
+    "description": "با آی‌مک ۲۷ اینچی با صفحه‌نمایش رتینا ۵K اپل، ایده‌های خلاقانه‌تان را از زمان ایده‌گیری تا تکمیل کنید. شهودی و مملو از ابزارهای قدرتمند، می‌توانید ایده‌های خود را به سطح بالاتری ببرید، و نمایشگر 27 اینچی تجربه شما را در کنار پردازنده، گرافیک، حافظه و ذخیره‌سازی بهبودیافته و قابلیت‌های صوتی و تصویری بهبودیافته افزایش می‌دهد.",
     "images": [
       "/images/imac-2020-1.png",
       "/images/imac-2020-2.png",
@@ -615,11 +615,11 @@
   },
   "28": {
     "id": 28,
-    "name": "Apple iPhone 13 Pro Max",
+    "name": "اپل آیفون 13 پرو مکس",
     "brand": "apple",
     "rating": 5,
     "inStock": false,
-    "description": "A dramatically more powerful camera system. A display so responsive, every interaction feels new again with ProMotion. Meet the 120Hz adaptive refresh display that changes the game. The world’s fastest smartphone chip. Exceptional durability.",
+    "description": "یک سیستم دوربین به طور چشمگیری قدرتمندتر. صفحه نمایش بسیار پاسخگو، هر تعاملی دوباره با ProMotion احساس تازگی می کند. با صفحه نمایش تازه سازی تطبیقی 120 هرتزی که بازی را تغییر می دهد آشنا شوید. سریع ترین تراشه گوشی هوشمند جهان ماندگاری استثنایی.",
     "images": [
       "/images/apple-iphone-13-pro-max-1.png",
       "/images/apple-iphone-13-pro-max-2.png",
@@ -642,7 +642,7 @@
     "price": 549.0,
     "rating": 2,
     "inStock": true,
-    "description": "Requires AirPods Max with the latest version of software, and iPhone and iPod touch models with the latest version of iOS; iPad models with the latest version of iPadOS; Apple Watch models with the latest version of watchOS; Mac models with the latest version of macOS; or Apple TV models with the latest version of tvOS.",
+    "description": "به AirPods Max با آخرین نسخه نرم افزار و مدل های iPhone و iPod touch با آخرین نسخه iOS نیاز دارد. مدل های iPad با آخرین نسخه iPadOS. مدل های اپل واچ با آخرین نسخه watchOS; مدل های مک با آخرین نسخه macOS؛ یا مدل های Apple TV با آخرین نسخه tvOS.",
     "images": [
       "/images/apple-airpods-max-1.png",
       "/images/apple-airpods-max-2.png",
@@ -660,12 +660,12 @@
   },
   "30": {
     "id": 30,
-    "name": "Apple Watch Series 6",
+    "name": "اپل واچ سری 6",
     "brand": "apple",
     "price": 459.99,
     "rating": 3,
     "inStock": true,
-    "description": "Apple Watch Series 6 lets you measure your blood oxygen level with a revolutionary new sensor and app. Take an ECG from your wrist. See your fitness metrics on the enhanced Always-On Retina display, now 2.5x brighter outdoors when your wrist is down. Set a bedtime routine and track your sleep. And with cellular service, you can go without your phone. It's the ultimate device for a healthier, more active, more connected life.",
+    "description": "اپل واچ سری 6 به شما امکان می دهد سطح اکسیژن خون خود را با یک سنسور و اپلیکیشن انقلابی جدید اندازه گیری کنید. از مچ دست خود نوار قلب بگیرید. معیارهای تناسب اندام خود را در صفحه نمایش Always-On Retina بهبودیافته ببینید، اکنون وقتی مچ دست شما پایین است، در فضای باز 2.5 برابر روشن تر است. یک روال قبل از خواب تنظیم کنید و خواب خود را پیگیری کنید. و با خدمات تلفن همراه، می توانید بدون تلفن خود بروید. این دستگاه نهایی برای زندگی سالم تر، فعال تر و مرتبط تر است.",
     "images": [
       "/images/apple-watch-series-6-1.png",
       "/images/apple-watch-series-6-2.png",
