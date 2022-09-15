@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom";
 import logo from "../../Asset/logo.svg";
 
 const Header = () => {
 
     return (
-        <nav className="navbar bg-white">
+        <nav className="navbar sticky-top bg-white">
             <div className="container-fluid">
-                <a className="navbar-brand" href="!#">
+                <Link to={"/"} className="navbar-brand">
                     <img src={logo} alt="logo" />
-                </a>
+                </Link>
                 <div className="input-group flex-grow-1 w-50 me-auto">
                     <input type="text" className="form-control-search" placeholder="جستجو در هزاران کالا ..." />
                     <i className="fa-solid fa-magnifying-glass"></i>
