@@ -11,13 +11,14 @@ const ProductSlider = ({productsCategory, title}) => {
     return (
         <>
             <div className="d-flex align-items-center justify-content-between p-3">
-                <h2 className="display-6">{title}</h2>
+                <h2 className="h2">{title}</h2>
                 <Link to={"/products"}>
                     <span>View All</span>
                 </Link>
             </div>
             <div className="mx-3" >
                 <Swiper
+                    className="m-auto position-relative overflow-hidden"
                     spaceBetween={20}
                     slidesPerView={1}
                     modules={[Autoplay, Navigation]}
@@ -35,10 +36,10 @@ const ProductSlider = ({productsCategory, title}) => {
                     <div>
                         {productsCategory && 
                             productsCategory.map(category => (
-                                <SwiperSlide key={uuidv4()}>
+                                <SwiperSlide key={uuidv4()} className="bg-light bg-gradient rounded-5 text-center flex-shrink-0 p-5 mb-3">
                                     <Link to={category.link}>
                                         <div className="text-center">
-                                            <h5 className="h5 text-dark">{category.title}</h5>
+                                            <h5 className="h6 text-dark text-truncate">{category.title}</h5>
                                             <small className="text-black-50">by {category.brand}</small>
                                         </div>
                                         <div className="img-container">

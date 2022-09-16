@@ -1,9 +1,10 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import Banner from "../Components/Banner/Banner"
-import ServiceBox from "../Components/ServiceBox/ServiceBox"
-import ProductSlider from "../Components/shared/ProductSlider"
+import Banner from "../Components/Banner/Banner";
+import ServiceBox from "../Components/ServiceBox/ServiceBox";
+import ProductSlider from "../Components/shared/ProductSlider";
+import Popular from "../Components/Popular/Popular";
 
 import { sendProductsRequest } from "../redux/actions/products";
 import filterCategory from "../Helpers/filterCategory";
@@ -40,6 +41,15 @@ const Home = () => {
                     </div>
                     <div className="bg-white rounded shadow mt-4">
                         <ProductSlider productsCategory={smartWatchCategory} title="ساعت هوشمند"/>
+                    </div>
+                    <div className="popular mt-4">
+                        <Popular/>
+                    </div>
+                    <div className="bg-white rounded shadow mt-4">
+                        <ProductSlider productsCategory={laptopCategory} title="لپ تاپ"/>
+                    </div>
+                    <div className="bg-white rounded shadow mt-4">
+                        <ProductSlider productsCategory={computerCategory} title="کامپیوتر"/>
                     </div>
                 </main>
             )}

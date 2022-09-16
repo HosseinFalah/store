@@ -1,3 +1,7 @@
+import { SiPostmates } from "react-icons/si";
+import { AiOutlineSafetyCertificate } from "react-icons/ai";
+import { TbCertificate } from "react-icons/tb";
+
 const ServiceBox = () => {
     return (
         <>
@@ -12,7 +16,7 @@ const ServiceBox = () => {
             </div>
             <div className="d-flex gap-4 p-3 align-items-center bg-white shadow rounded">
                 <div className="service-box-icon bg-primary text-white p-3 rounded">
-                    <i className="fa-solid fa-phone-volume"></i>
+                    <TbCertificate/>
                 </div>
                 <div className="service-box-content">
                     <h4 className="service-box-title">ضمانت اصل بودن کالا</h4>
@@ -21,7 +25,7 @@ const ServiceBox = () => {
             </div>
             <div className="d-flex gap-4 p-3 align-items-center bg-white shadow rounded">
                 <div className="service-box-icon bg-primary text-white p-3 rounded">
-                    <i className="fa-solid fa-phone-volume"></i>
+                    <AiOutlineSafetyCertificate fontSize={25}/>
                 </div>
                 <div className="service-box-content">
                     <h4 className="service-box-title">7 روز ضمانت بازگشت</h4>
@@ -30,7 +34,7 @@ const ServiceBox = () => {
             </div>
             <div className="d-flex gap-4 p-3 align-items-center bg-white shadow rounded">
                 <div className="service-box-icon bg-primary text-white p-3 rounded">
-                    <i className="fa-solid fa-phone-volume"></i>
+                    <SiPostmates fontSize={25}/>
                 </div>
                 <div className="service-box-content">
                     <h4 className="service-box-title">ارسال سریع</h4>
