@@ -234,6 +234,10 @@ polyline{
     grid-row: 2 / 3;
 }
 
+.form-control{
+    direction: rtl;
+}
+
 @media only screen and (max-width: 869px) {
     .banner{
         display: grid;

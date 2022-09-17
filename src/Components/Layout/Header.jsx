@@ -14,7 +14,7 @@ const Header = () => {
                     <i className="fa-solid fa-magnifying-glass"></i>
                 </div>
                 <form className="navbar_form">
-                    <a href=" #" className="text-decoration-none text-dark btn-login">ورود | ثبت نام</a>
+                    <Link to={"/login"} className="text-decoration-none text-dark btn-login">ورود | ثبت نام</Link>
                     <button className="btn-shopping">
                         <i className="fa-solid fa-cart-shopping"></i>
                         <span className="shopping-counter">0</span>
