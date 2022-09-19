@@ -13,7 +13,7 @@ const ProductSlider = ({productsCategory, title}) => {
             <div className="d-flex align-items-center justify-content-between p-3">
                 <h2 className="h2">{title}</h2>
                 <Link to={"/products"}>
-                    <span>View All</span>
+                    <span>مشاهده همه</span>
                 </Link>
             </div>
             <div className="mx-3" >
@@ -36,11 +36,11 @@ const ProductSlider = ({productsCategory, title}) => {
                     <div>
                         {productsCategory && 
                             productsCategory.map(category => (
-                                <SwiperSlide key={uuidv4()} className="bg-light bg-gradient rounded-5 text-center flex-shrink-0 p-5 mb-3">
+                                <SwiperSlide key={uuidv4()} className="bg-light bg-gradient shadow rounded-5 text-center flex-shrink-0 p-5 mb-3">
                                     <Link to={category.link}>
                                         <div className="text-center">
                                             <h5 className="h6 text-dark text-truncate">{category.title}</h5>
-                                            <small className="text-black-50">by {category.brand}</small>
+                                            <small className="text-black-50">برند {category.brand}</small>
                                         </div>
                                         <div className="img-container">
                                             <img src={category.image} className="img-fluid" alt={category.name} />
@@ -50,7 +50,7 @@ const ProductSlider = ({productsCategory, title}) => {
                                             {category.inStock ? (
                                                 <p className="text-primary fs-5">${category.price}</p>
                                             ) : (
-                                                <p className="text-danger fs-5">Unavailable</p>
+                                                <p className="text-danger fs-5">موجود نیست</p>
                                             )}
                                         </div>
                                     </Link>
@@ -68,4 +68,4 @@ const ProductSlider = ({productsCategory, title}) => {
     )
 }
 
-export default ProductSlider
+export default ProductSlider;

@@ -4,7 +4,7 @@ import logo from "../../Asset/logo.svg";
 const Header = () => {
 
     return (
-        <nav className="navbar sticky-top bg-white">
+        <nav className="navbar sticky-top bg-white shadow-lg">
             <div className="container-fluid">
                 <Link to={"/"} className="navbar-brand">
                     <img src={logo} alt="logo" />
@@ -15,10 +15,10 @@ const Header = () => {
                 </div>
                 <form className="navbar_form">
                     <Link to={"/login"} className="text-decoration-none text-dark btn-login">ورود | ثبت نام</Link>
-                    <button className="btn-shopping">
+                    <Link to={"/cart"} className="btn-shopping">
                         <i className="fa-solid fa-cart-shopping"></i>
                         <span className="shopping-counter">0</span>
-                    </button>
+                    </Link>
                 </form>
             </div>
         </nav>

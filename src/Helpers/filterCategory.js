@@ -9,7 +9,7 @@ const filterCategory = (products, category) => {
             rating: product.rating,
             image: product.images[0],
             inStock: product.inStock,
-            link: `/products/${product.id}`
+            link: `/product/${product.id}`
         }
     })
     return newProducts

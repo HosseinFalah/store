@@ -10,7 +10,7 @@ import { sendProductsRequest } from "../redux/actions/products";
 import filterCategory from "../Helpers/filterCategory";
 
 const Home = () => {
-    const {loading, products, error} = useSelector(state => state);
+    const {loading, products} = useSelector(state => state.productsList);
     const dispatch = useDispatch();
     
     useEffect(() => {

@@ -100,10 +100,6 @@ a{
     grid-row: 1 / 4;
 }
 
-.btn{
-    font-size: 13px;
-}
-
 .service-box{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -236,6 +232,70 @@ polyline{
 
 .form-control{
     direction: rtl;
+}
+
+.slide{
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide-dot{
+    cursor: pointer;
+}
+
+.color{
+    width: 21px;
+    height: 21px;
+    box-shadow: 0px 2px 15px 0px #22292f2e;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+.bg-black {
+    background: #3d3d3d;
+}
+
+.bg-green {
+    background: #07ac02;
+}
+
+.bg-blue {
+    background: #005be4;
+}
+
+.bg-skyblue{
+    background: #55b1d5;
+}
+
+.bg-yellow {
+    background: #fff314;
+}
+
+.bg-red{
+    background: #d20000;
+}
+
+.bg-pink{
+    background: #ea8eff;
+}
+
+.bg-gold{
+    background: #ffd900;
+}
+
+.bg-silver{
+    background: #cdcdcd;
+}
+
+.bg-gray{
+    background: #646464;
+}
+
+.bg-rose-gold{
+    background: #B76E79;
 }
 
 @media only screen and (max-width: 869px) {

@@ -19,8 +19,8 @@
     "colors": ["rose-gold", "black", "blue", "white"],
     "category": "smart-watch",
     "original": true,
-    "replacement": "15 Day",
-    "warranty": "1 Year"
+    "replacement": "15 روزه",
+    "warranty": "1 سال"
   },
   "2": {
     "id": 2,
@@ -42,8 +42,8 @@
     "colors": ["black", "green", "blue", "yellow", "white"],
     "category": "mobile",
     "original": true,
-    "replacement": "10 Day",
-    "warranty": "1 Year"
+    "replacement": "10 روزه",
+    "warranty": "1 سال"
   },
   "3": {
     "id": 3,
@@ -65,8 +65,8 @@
     "colors": ["blue", "green", "yellow", "pink"],
     "category": "computer",
     "original": true,
-    "replacement": "15 Day",
-    "warranty": "3 Year"
+    "replacement": "15 روزه",
+    "warranty": "3 سال"
   },
   "4": {
     "id": 4,
@@ -88,8 +88,8 @@
     "colors": ["gold", "silver", "gray"],
     "category": "laptop",
     "original": true,
-    "replacement": "7 Day",
-    "warranty": "1 Year"
+    "replacement": "7 روزه",
+    "warranty": "1 سال"
   },
   "5": {
     "id": 5,
@@ -98,7 +98,7 @@
     "price": 9.99,
     "rating": 2,
     "inStock": true,
-    "description": "وان پلاس همواره در عرصه گوشی‌های هوشمند توانسته است عملکرد بسیار خوبی را داشته باشد و گوشی‌های هوشمند با‌کیفیتی را با مشخصات فنی مناسب و قدرتمند روانه بازار کرده است. Nord CE 5G هم یکی از گوشی‌های هوشمند میان‌رده سطح بالایی این شرکت است که در جایگاه یک گوشی میان‌رده به مشخصات فنی قدرتمندی مجهز شده است. در نمای روبه‌رویی این گوشی به صفحه‌نمایش با ابعاد 6.43 اینچ و رزولوشن 1080×2400 پیکسل از نوع امولد مجهز شده است. صفحه‌نمایشی با‌کیفیت که توانایی ارائه نرخ بروزرسانی 90 هرتز و نمایش 410 پیکسل در هر اینچ را دارد. حسگر اثر انگشت از نوع اپتیکال هم زیر صفحه‌نمایش قرار گرفته است. در قسمت پشتی این گوشی به سه سنسور دوربین مجهز شده است. یک سنسور دوربین اصلی با رزولوشن 64 مگاپیکسل و گشودگی دریچه دیافراگم f/1.8 از نوع عریض در کنار سنسور 8 مگاپیکسل از نوع فوق عریض (ultra wide)با زاویه دید 119 درجه و سنسور 2 مگاپیکسل از نوع سنجش عمق، سنسور‌های دوربین سه‌گانه Nord CE 5G را تشکیل می‌دهند. برای دوربین سلفی هم سنسور با رزولوشن 16 مگاپیکسل در نظر گرفته شده است. پردازنده اسنپدراگون 750G 5G شرکت کوالکام سوای عملکرد بسیار خوب، توانایی پشتیبانی از شبکه‌های اینترنتی نسل پنجم یا همان 5G را هم دارد. باتری با میزان ظرفیت 4500 میلی‌آمپر‌ساعت در کنار شارژر قدرتمند با توان 30 وات و توانایی شارژ 0 تا 70 درصد در مدت زمان 30 دقیقه، از دیگر مشخصات در نظر گرفته شده برای این گوشی هوشمند میان‌رده است.",
+    "description": "وان پلاس همواره در عرصه گوشی‌های هوشمند توانسته است عملکرد بسیار خوبی را داشته باشد و گوشی‌های هوشمند با‌کیفیتی را با مشخصات فنی مناسب و قدرتمند روانه بازار کرده است. Nord CE 5G هم یکی از گوشی‌های هوشمند میان‌رده سطح بالایی این شرکت است که در جایگاه یک گوشی میان‌رده به مشخصات فنی قدرتمندی مجهز شده است. در نمای روبه‌رویی این گوشی به صفحه‌نمایش با ابعاد 6.43 اینچ و رزولوشن 1080×2400 پیکسل از نوع امولد مجهز شده است. صفحه‌نمایشی با‌کیفیت که توانایی ارائه نرخ بروزهرسانی 90 هرتز و نمایش 410 پیکسل در هر اینچ را دارد. حسگر اثر انگشت از نوع اپتیکال هم زیر صفحه‌نمایش قرار گرفته است. در قسمت پشتی این گوشی به سه سنسور دوربین مجهز شده است. یک سنسور دوربین اصلی با رزولوشن 64 مگاپیکسل و گشودگی دریچه دیافراگم f/1.8 از نوع عریض در کنار سنسور 8 مگاپیکسل از نوع فوق عریض (ultra wide)با زاویه دید 119 درجه و سنسور 2 مگاپیکسل از نوع سنجش عمق، سنسور‌های دوربین سه‌گانه Nord CE 5G را تشکیل می‌دهند. برای دوربین سلفی هم سنسور با رزولوشن 16 مگاپیکسل در نظر گرفته شده است. پردازنده اسنپدراگون 750G 5G شرکت کوالکام سوای عملکرد بسیار خوب، توانایی پشتیبانی از شبکه‌های اینترنتی نسل پنجم یا همان 5G را هم دارد. باتری با میزان ظرفیت 4500 میلی‌آمپر‌ساعت در کنار شارژر قدرتمند با توان 30 وات و توانایی شارژ 0 تا 70 درصد در مدت زمان 30 دقیقه، از دیگر مشخصات در نظر گرفته شده برای این گوشی هوشمند میان‌رده است.",
     "images": [
       "/images/one-plus-7-pro-1.png",
       "/images/one-plus-7-pro-2.png",
@@ -111,8 +111,8 @@
     "colors": ["black", "blue", "white"],
     "category": "mobile",
     "original": false,
-    "replacement": "10 Day",
-    "warranty": "2 Year"
+    "replacement": "10 روزه",
+    "warranty": "2 سال"
   },
   "6": {
     "id": 6,
@@ -120,7 +120,7 @@
     "brand": "one-odio",
     "rating": 3,
     "inStock": false,
-    "description": "با هدست وان اُدیو OneOdio Wireless+DJ A70 از صدای پرقدرت ، واضح و شفاف لذت ببرید . به کمک درایورهای 40 میلی متری باس پرقدرت ، صدای شفاف خواننده و تونهای بالای موسیقی را با کیفیت بالا در کنار هم تجربه کنید . گوشیهای بزرگ و نرم این هدست ، برای راحتی شما در استفاده طولانی مدت همراه با فیلتر کردن صداهای محیط طراحی شده اند . هدبند قابل تنظیم و منعطف این هدست به شما امکان می دهد که به راحتی آن را بر روی سر خود تنظیم نمائید . هدست وان اودیو A70 با کیفیت بالای طراحی و صدای پرقدرت خود در حالت بلوتوث با آخرین نسل آیفون ، آیپد و تمام گوشی ها و تبلت های اندرویدی و در حالت با سیم با مک ، پی سی و انواع کنسولهای بازی سازگاری کامل دارد . به کمک تکنولوژی بلوتوث 4.0 و قابلیت کاهش نویز از مکالمه شفاف لذت ببرید . بی سیم مکالمه کنید باسیم بازی کنید ! با یک بار شارژ 25 ساعت از وان اودیو A70 استفاده کنید .قابلیت جمع شدن و جابجایی آسان، قابلیت چرخش 90 درجه و استفاده بصورت DJ در کنار استفاده روزمره را نیز دارد.",
+    "description": "با هدست وان اُدیو OneOdio Wireless+DJ A70 از صدای پرقدرت ، واضح و شفاف لذت ببرید . به کمک درایورهای 40 میلی متری باس پرقدرت ، صدای شفاف خواننده و تونهای بالای موسیقی را با کیفیت بالا در کنار هم تجربه کنید . گوشیهای بزرگ و نرم این هدست ، برای راحتی شما در استفاده طولانی مدت همراه با فیلتر کردن صداهای محیط طراحی شده اند . هدبند قابل تنظیم و منعطف این هدست به شما امکان می دهد که به راحتی آن را بر روی سر خود تنظیم نمائید . هدست وان اودیو A70 با کیفیت بالای طراحی و صدای پرقدرت خود در حالت بلوتوث با آخرین نسل آیفون ، آیپد و تمام گوشی ها و تبلت های اندرویدی و در حالت با سیم با مک ، پی سی و انواع کنسولهای بازی سازگاری کامل دارد . به کمک تکنولوژی بلوتوث 4.0 و قابلیت کاهش نویز از مکالمه شفاف لذت ببرید . بی سیم مکالمه کنید باسیم بازی کنید ! با یک بار شارژ 25 ساعت از وان اودیو A70 استفاده کنید .قابلیت جمع شدن و جابجایی آسان، قابلیت چرخش 90 درجه و استفاده بصورت DJ در کنار استفاده روزهمره را نیز دارد.",
     "images": [
       "/images/one-odio-a71-wired-headphones-1.png",
       "/images/one-odio-a71-wired-headphones-2.png",
@@ -133,8 +133,8 @@
     "colors": ["black", "rose-gold"],
     "category": "headphones-headset",
     "original": true,
-    "replacement": "5 Day",
-    "warranty": "1 Year"
+    "replacement": "5 روزه",
+    "warranty": "1 سال"
   },
   "7": {
     "id": 7,
@@ -155,7 +155,7 @@
     "colors": ["black", "white"],
     "category": "headphones-headset",
     "original": false,
-    "replacement": "1 Day",
+    "replacement": "1 روزه",
     "warranty": "1 Month"
   },
   "8": {
@@ -178,8 +178,8 @@
     "colors": ["black", "gold"],
     "category": "laptop",
     "original": true,
-    "replacement": "15 Day",
-    "warranty": "1 Year"
+    "replacement": "15 روزه",
+    "warranty": "1 سال"
   },
   "9": {
     "id": 9,
@@ -201,8 +201,8 @@
     "colors": ["blue", "green", "yellow", "red", "rose-gold"],
     "category": "smart-watch",
     "original": true,
-    "replacement": "5 Day",
-    "warranty": "2 Year"
+    "replacement": "5 روزه",
+    "warranty": "2 سال"
   },
   "10": {
     "id": 10,
@@ -224,8 +224,8 @@
     "colors": ["black", "blue", "green"],
     "category": "computer",
     "original": true,
-    "replacement": "10 Day",
-    "warranty": "3 Year"
+    "replacement": "10 روزه",
+    "warranty": "3 سال"
   },
   "11": {
     "id": 11,
@@ -246,8 +246,8 @@
     "colors": ["black", "gold", "white"],
     "category": "smart-watch",
     "original": false,
-    "replacement": "7 Day",
-    "warranty": "1 Year"
+    "replacement": "7 روزه",
+    "warranty": "1 سال"
   },
   "12": {
     "id": 12,
@@ -269,8 +269,8 @@
     "colors": ["black", "blue", "red", "white"],
     "category": "mobile",
     "original": true,
-    "replacement": "25 Day",
-    "warranty": "2 Year"
+    "replacement": "25 روزه",
+    "warranty": "2 سال"
   },
   "13": {
     "id": 13,
@@ -291,8 +291,8 @@
     "colors": ["black", "white"],
     "category": "mobile",
     "original": true,
-    "replacement": "5 Day",
-    "warranty": "1 Year"
+    "replacement": "5 روزه",
+    "warranty": "1 سال"
   },
   "14": {
     "id": 14,
@@ -314,8 +314,8 @@
     "colors": ["silver", "gray"],
     "category": "computer",
     "original": true,
-    "replacement": "10 Day",
-    "warranty": "3 Year"
+    "replacement": "10 روزه",
+    "warranty": "3 سال"
   },
   "15": {
     "id": 15,
@@ -337,8 +337,8 @@
     "colors": ["silver", "gray", "gold"],
     "category": "laptop",
     "original": true,
-    "replacement": "20 Day",
-    "warranty": "1 Year"
+    "replacement": "20 روزه",
+    "warranty": "1 سال"
   },
   "16": {
     "id": 16,
@@ -360,8 +360,8 @@
     "colors": ["black", "blue", "rose-gold"],
     "category": "smart-watch",
     "original": false,
-    "replacement": "7 Day",
-    "warranty": "2 Year"
+    "replacement": "7 روزه",
+    "warranty": "2 سال"
   },
   "17": {
     "id": 17,
@@ -383,8 +383,8 @@
     "colors": ["white"],
     "category": "headphones-headset",
     "original": true,
-    "replacement": "7 Day",
-    "warranty": "3 Year"
+    "replacement": "7 روزه",
+    "warranty": "3 سال"
   },
   "18": {
     "id": 18,
@@ -392,7 +392,7 @@
     "brand": "samsung",
     "rating": 5,
     "inStock": false,
-    "description": "Samsung Galaxy Buds Pro صدای شفاف و شفاف را با کنترل بی‌سابقه ترکیب می‌کند و باعث می‌شود تا لحظات روزمره را بی‌دردسر جلوه دهید. از حذف هوشمند نویز فعال برای فرار به موسیقی خود در لحظه استفاده کنید، حتی در یک جمعیت پر سر و صدا. فاصله را با تماس‌های شفاف ببندید، تا همیشه احساس کنید در یک اتاق هستید. و آب تمرین شما را خراب نمی کند زیرا گلکسی بادز پرو مقاوم حتی با بارش اندکی نیز این ضربان را حفظ می کند.",
+    "description": "Samsung Galaxy Buds Pro صدای شفاف و شفاف را با کنترل بی‌سابقه ترکیب می‌کند و باعث می‌شود تا لحظات روزهمره را بی‌دردسر جلوه دهید. از حذف هوشمند نویز فعال برای فرار به موسیقی خود در لحظه استفاده کنید، حتی در یک جمعیت پر سر و صدا. فاصله را با تماس‌های شفاف ببندید، تا همیشه احساس کنید در یک اتاق هستید. و آب تمرین شما را خراب نمی کند زیرا گلکسی بادز پرو مقاوم حتی با بارش اندکی نیز این ضربان را حفظ می کند.",
     "images": [
       "/images/galaxy-buds-pro-1.png",
       "/images/galaxy-buds-pro-2.png",
@@ -405,8 +405,8 @@
     "colors": ["black", "white"],
     "category": "headphones-headset",
     "original": true,
-    "replacement": "7 Day",
-    "warranty": "1 Year"
+    "replacement": "7 روزه",
+    "warranty": "1 سال"
   },
   "19": {
     "id": 19,
@@ -428,8 +428,8 @@
     "colors": ["black", "white"],
     "category": "laptop",
     "original": true,
-    "replacement": "10 Day",
-    "warranty": "3 Year"
+    "replacement": "10 روزه",
+    "warranty": "3 سال"
   },
   "20": {
     "id": 20,
@@ -450,8 +450,8 @@
     "colors": ["black", "blue", "green", "red", "white"],
     "category": "headphones-headset",
     "original": false,
-    "replacement": "5 Day",
-    "warranty": "1 Year"
+    "replacement": "5 روزه",
+    "warranty": "1 سال"
   },
   "21": {
     "id": 21,
@@ -459,7 +459,7 @@
     "brand": "hp",
     "rating": 2,
     "inStock": false,
-    "description": "طراحی تجاری تمیز و ساده کامپیوتر ارزان قیمت HP 200 22 All-in-One در فضای کاری شما عالی به نظر می رسد. پردازنده‌های قدرتمند Intel® به شما کمک می‌کنند تا کارهای روزانه را به سرعت انجام دهید و صفحه نمایش 21.5 اینچی مورب فضای زیادی برای همکاری با همکاران دارد.",
+    "description": "طراحی تجاری تمیز و ساده کامپیوتر ارزان قیمت HP 200 22 All-in-One در فضای کاری شما عالی به نظر می رسد. پردازنده‌های قدرتمند Intel® به شما کمک می‌کنند تا کارهای روزهانه را به سرعت انجام دهید و صفحه نمایش 21.5 اینچی مورب فضای زیادی برای همکاری با همکاران دارد.",
     "images": [
       "/images/hp-200-g4-1.png",
       "/images/hp-200-g4-2.png",
@@ -472,8 +472,8 @@
     "colors": ["black"],
     "category": "computer",
     "original": true,
-    "replacement": "7 Day",
-    "warranty": "2 Year"
+    "replacement": "7 روزه",
+    "warranty": "2 سال"
   },
   "22": {
     "id": 22,
@@ -495,8 +495,8 @@
     "colors": ["silver", "white"],
     "category": "computer",
     "original": true,
-    "replacement": "10 Day",
-    "warranty": "1 Year"
+    "replacement": "10 روزه",
+    "warranty": "1 سال"
   },
   "23": {
     "id": 23,
@@ -518,8 +518,8 @@
     "colors": ["black", "green"],
     "category": "mobile",
     "original": true,
-    "replacement": "18 Day",
-    "warranty": "3 Year"
+    "replacement": "18 روزه",
+    "warranty": "3 سال"
   },
   "24": {
     "id": 24,
@@ -528,7 +528,7 @@
     "price": 249.99,
     "rating": 4,
     "inStock": true,
-    "description": "گلکسی واچ به دلیل ردیابی تناسب اندام مفید و عمر باتری چهار روزه، پیشرفته ترین ساعت هوشمند سامسونگ است - اگر اندازه بزرگتر 46 میلی متری را انتخاب کنید که ما دوست داشتیم و توصیه می کنیم. همه این‌ها در یک ساعت هوشمند مدور نقره‌ای و مشکی با ظاهری پیچیده قرار گرفته‌اند که دارای یک قاب چرخان برای پیمایش آسان در منو است. هشدار داده شود، اگر از آیفون استفاده می کنید، برنامه های شخص ثالث وجود ندارد و پشتیبانی iOS آن محدود است. این برای طرفداران سامسونگ بهترین است.",
+    "description": "گلکسی واچ به دلیل ردیابی تناسب اندام مفید و عمر باتری چهار روزهه، پیشرفته ترین ساعت هوشمند سامسونگ است - اگر اندازه بزرگتر 46 میلی متری را انتخاب کنید که ما دوست داشتیم و توصیه می کنیم. همه این‌ها در یک ساعت هوشمند مدور نقره‌ای و مشکی با ظاهری پیچیده قرار گرفته‌اند که دارای یک قاب چرخان برای پیمایش آسان در منو است. هشدار داده شود، اگر از آیفون استفاده می کنید، برنامه های شخص ثالث وجود ندارد و پشتیبانی iOS آن محدود است. این برای طرفداران سامسونگ بهترین است.",
     "images": [
       "/images/galaxy-watch-4-1.png",
       "/images/galaxy-watch-4-2.png",
@@ -541,8 +541,8 @@
     "colors": ["green", "silver", "rose-gold"],
     "category": "smart-watch",
     "original": true,
-    "replacement": "7 Day",
-    "warranty": "1 Year"
+    "replacement": "7 روزه",
+    "warranty": "1 سال"
   },
   "25": {
     "id": 25,
@@ -564,8 +564,8 @@
     "colors": ["black"],
     "category": "laptop",
     "original": true,
-    "replacement": "10 Day",
-    "warranty": "3Year"
+    "replacement": "10 روزه",
+    "warranty": "3سال"
   },
   "26": {
     "id": 26,
@@ -587,8 +587,8 @@
     "colors": ["red", "gray"],
     "category": "laptop",
     "original": false,
-    "replacement": "25 Day",
-    "warranty": "3 Year"
+    "replacement": "25 روزه",
+    "warranty": "3 سال"
   },
   "27": {
     "id": 27,
@@ -610,8 +610,8 @@
     "colors": ["silver"],
     "category": "computer",
     "original": true,
-    "replacement": "5 Day",
-    "warranty": "1 Year"
+    "replacement": "5 روزه",
+    "warranty": "1 سال"
   },
   "28": {
     "id": 28,
@@ -632,8 +632,8 @@
     "colors": ["gray", "gold"],
     "category": "mobile",
     "original": true,
-    "replacement": "7 Day",
-    "warranty": "2 Year"
+    "replacement": "7 روزه",
+    "warranty": "2 سال"
   },
   "29": {
     "id": 29,
@@ -655,8 +655,8 @@
     "colors": ["black", "silver", "skyblue", "rose-gold", "green"],
     "category": "headphones-headset",
     "original": true,
-    "replacement": "20 Day",
-    "warranty": "3 Year"
+    "replacement": "20 روزه",
+    "warranty": "3 سال"
   },
   "30": {
     "id": 30,
@@ -678,7 +678,7 @@
     "colors": ["black", "red", "rose-gold", "white"],
     "category": "smart-watch",
     "original": true,
-    "replacement": "10 Day",
-    "warranty": "1 Year"
+    "replacement": "10 روزه",
+    "warranty": "1 سال"
   }
 }

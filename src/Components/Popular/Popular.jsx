@@ -7,7 +7,7 @@ const Popular = () => {
                 <div className="col-6">
                     <h3 className="text-white fs-2">Galaxy Book Pro 360</h3>
                     <p className="text-white mt-4 text-truncate">گلکسی بوک پرو 360 با صفحه نمایش لمسی Super AMOLED، لولای 360 درجه، پردازنده نسل یازدهم اینتل Core i7 و ویژگی های نرم افزاری منحصر به فرد، براق ترین نوت بوک 15 اینچی 2 در 1 موجود است.</p>
-                    <Link to={"/products/8"}><button className="btn btn-warning bg-warning bg-gradient">همین الان بخر</button></Link>
+                    <Link to={"/product/8"}><button className="btn btn-warning bg-warning bg-gradient">همین الان بخر</button></Link>
                 </div>
                 <div className="col-6">
                     <img src="/images/popular-2-1.png" className="img-fluid" alt="Galaxy Book Pro 360" />
@@ -22,7 +22,7 @@ const Popular = () => {
                         <p className="text-white mt-2">$779.99</p>
                     </div>
                     <div className="mb-3">
-                        <Link to={"/products/12"}><button className="btn btn-primary">همین الان بخر</button></Link>
+                        <Link to={"/product/12"}><button className="btn btn-primary">همین الان بخر</button></Link>
                     </div>
                 </div>
                 <div className="col-6">
@@ -38,7 +38,7 @@ const Popular = () => {
                         <p className="text-white mt-2">$549.00</p>
                     </div>
                     <div className="mb-3">
-                        <Link to={"/products/29"}><button className="btn btn-primary">همین الان بخر</button></Link>
+                        <Link to={"/product/29"}><button className="btn btn-primary">همین الان بخر</button></Link>
                     </div>
                 </div>
                 <div className="col-6">

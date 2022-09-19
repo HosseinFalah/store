@@ -1,6 +1,12 @@
-import { RECEIVE_PRODUCTSLIST_ERROR, RECEIVE_PRODUCTSLIST_RESPONSE, SEND_PRODUCTSLIST_REQUEST } from "../types";
+import { RECEIVE_PRODUCTSLIST_ERROR, RECEIVE_PRODUCTSLIST_RESPONSE, RECEIVE_PRODUCT_DETAILS_ERROR, RECEIVE_PRODUCT_DETAILS_RESPONSE, SEND_PRODUCTSLIST_REQUEST, SEND_PRODUCT_DETAILS_REQUEST } from "../types";
 
 const ProductsInitiale = {
+    loading: false,
+    products: [],
+    error: ""
+}
+
+const ProductInitiale = {
     loading: false,
     products: [],
     error: ""
@@ -19,4 +25,17 @@ const ProductsListReducer = (state = ProductsInitiale, action) => {
     }
 }
 
-export default ProductsListReducer;
+const ProductDetailsReducer = (state = ProductInitiale, action) => {
+    switch (action.type) {
+        case SEND_PRODUCT_DETAILS_REQUEST:
+            return { ...state, loading: true }
+        case RECEIVE_PRODUCT_DETAILS_RESPONSE:
+            return { loading: false, product: action.payload, error: "" }
+        case RECEIVE_PRODUCT_DETAILS_ERROR:
+            return { loading: false, product: [], error: action.payload }
+        default: 
+            return state;
+    }
+}
+
+export { ProductDetailsReducer, ProductsListReducer };

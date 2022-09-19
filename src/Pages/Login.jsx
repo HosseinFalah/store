@@ -8,9 +8,6 @@ const Login = () => {
         initialValues: {
             mobile: "09165832381"
         },
-        onSubmit: values => {
-            console.log(values);
-        },
         validate: values => {
             let errors = {}
             if(!values.mobile) {
