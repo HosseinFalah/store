@@ -58,7 +58,7 @@ a{
     padding: 5px 5px;
     background: none;
     margin-right: 10px;
-    color: #6a6a6a;
+    color: #6a6a6a !important;
     font-size: 18px;
 }
 
