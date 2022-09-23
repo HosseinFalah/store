@@ -298,6 +298,22 @@ polyline{
     background: #B76E79;
 }
 
+.text-purple{
+    color: #9000e4;
+}
+
+.search-icon{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin-left: 15px;
+}
+
+.disable{
+    background: #d9d9d9;
+    opacity: 0.8;
+}
+
 @media only screen and (max-width: 869px) {
     .banner{
         display: grid;
@@ -322,10 +338,6 @@ polyline{
     
     .caption-title{
         font-size: 18px !important;
-    }
-
-    .btn{
-        font-size: 10px;
     }
 
     .popular{

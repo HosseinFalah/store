@@ -1,4 +1,4 @@
-import { RECEIVE_PRODUCTSLIST_ERROR, RECEIVE_PRODUCTSLIST_RESPONSE, RECEIVE_PRODUCT_DETAILS_ERROR, RECEIVE_PRODUCT_DETAILS_RESPONSE, SEND_PRODUCTSLIST_REQUEST, SEND_PRODUCT_DETAILS_REQUEST } from "../types";
+import { RECEIVE_PRODUCTSLIST_ERROR, RECEIVE_PRODUCTSLIST_RESPONSE, RECEIVE_PRODUCT_DETAILS_ERROR, RECEIVE_PRODUCT_DETAILS_RESPONSE, SEARCH_PRODUCTS_REQUEST, SEND_PRODUCTSLIST_REQUEST, SEND_PRODUCT_DETAILS_REQUEST } from "../types";
 
 const ProductsInitiale = {
     loading: false,
@@ -10,6 +10,11 @@ const ProductInitiale = {
     loading: false,
     products: [],
     error: ""
+}
+
+const SearchProductsInitiale = {
+    pages: [],
+    products: [],
 }
 
 const ProductsListReducer = (state = ProductsInitiale, action) => {
@@ -38,4 +43,21 @@ const ProductDetailsReducer = (state = ProductInitiale, action) => {
     }
 }
 
-export { ProductDetailsReducer, ProductsListReducer };
+const SearchProductsReducer = (state = SearchProductsInitiale, action) => {
+    switch (action.type) {
+        case SEARCH_PRODUCTS_REQUEST:
+            const search = action.payload.search;
+            const pages = action.payload.pages;
+            const products = action.payload.products;
+
+            const filteredPages = pages.filter(page => page.name.toLowerCase().includes(search.toLowerCase()));
+
+            const filteredProducts = products.filter(product => product.name.toLowerCase().includes(search.toLowerCase()));
+
+            return { pages: filteredPages, products: filteredProducts };
+        default:
+            return state;
+    }
+}
+
+export { ProductDetailsReducer, ProductsListReducer, SearchProductsReducer };

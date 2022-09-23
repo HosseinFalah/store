@@ -5,6 +5,8 @@ import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { GrPrevious, GrNext } from "react-icons/gr";
+import { MdOutlineArrowLeft } from "react-icons/md";
+
 import RatingsList from './RatingsList';
 
 const ProductSlider = ({productsCategory, title}) => {
@@ -12,8 +14,9 @@ const ProductSlider = ({productsCategory, title}) => {
         <>
             <div className="d-flex align-items-center justify-content-between p-3">
                 <h2 className="h2">{title}</h2>
-                <Link to={"/products"}>
-                    <span>مشاهده همه</span>
+                <Link to={"/products"} className="bg-light rounded rounded-2 p-2">
+                    <span className="text-purple">مشاهده همه</span>
+                    <MdOutlineArrowLeft className="text-purple ms-1" fontSize={25}/>
                 </Link>
             </div>
             <div className="mx-3" >
@@ -36,7 +39,7 @@ const ProductSlider = ({productsCategory, title}) => {
                     <div>
                         {productsCategory && 
                             productsCategory.map(category => (
-                                <SwiperSlide key={uuidv4()} className="bg-light bg-gradient shadow rounded-5 text-center flex-shrink-0 p-5 mb-3">
+                                <SwiperSlide key={uuidv4()} className="bg-white bg-gradient shadow rounded-5 text-center flex-shrink-0 p-5 mb-3">
                                     <Link to={category.link}>
                                         <div className="text-center">
                                             <h5 className="h6 text-dark text-truncate">{category.title}</h5>
