@@ -156,20 +156,20 @@ const ProductsDetails = () => {
 
                             {/* Product Features */}
 
-                            <div className="d-flex bg-light bg-gradient text-center py-5">
-                                <div className="col-12 col-md-4">
+                            <div className="row row-cols-1 row-cols-md-3 bg-light bg-gradient text-center m-0 py-5">
+                                <div className="col">
                                     <BsShield fontSize={35} className="text-primary"/>
                                     <h4 className="text-dark mt-4">
                                         {product?.original ? '100% اورجینال' : '100% قلابی'}
                                     </h4>
                                 </div>
-                                <div className="col-12 col-md-4">
+                                <div className="col mt-4 mt-md-0">
                                     <BiTimeFive fontSize={35} className="text-primary"/>
                                     <h4 className="text-dark mt-4">
                                         تعویض {product?.replacement} 
                                     </h4>
                                 </div>
-                                <div className="col-12 col-md-4">
+                                <div className="col mt-4 mt-md-0">
                                     <RiAwardLine fontSize={35} className="text-primary"/>
                                     <h4 className="text-dark mt-4">
                                         {product?.warranty} گارانتی
