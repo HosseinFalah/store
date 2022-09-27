@@ -1,5 +1,7 @@
-import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
+
+import numberWithCommas from "../../Utils/numberWithCommas";
 
 import RatingsList from "../shared/RatingsList";
 
@@ -15,7 +17,7 @@ const ProductCard = ({productInfo}) => {
                     <div className="p-1">
                         <div className="d-flex align-items-center justify-content-between">
                             {inStock ? (
-                                <h5 className="h6 text-muted m-0">{price} تومان</h5>
+                                <h5 className="h6 text-muted m-0">{numberWithCommas(price)} تومان</h5>
                             ) : (
                                 <span className="text-danger">موجود نیست</span>
                             )}

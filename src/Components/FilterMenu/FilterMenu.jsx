@@ -8,11 +8,9 @@ import { brands, categories, multi_range, ratings } from "../../Asset/data/produ
 import RatingsList from "../shared/RatingsList";
 
 const FilterMenu = ({ filterCategory }) => {
-  console.log(filterCategory);
   const dispatch = useDispatch();
 
   const { multiRange } = useSelector((state) => state.filters);
-  console.log(multiRange);
 
   const filterRatinghandler = (rating) => dispatch(filterRatingAction(rating));
   const clearFiltershandler = () => dispatch(clearFiltersAction());

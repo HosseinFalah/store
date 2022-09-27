@@ -5,9 +5,11 @@ import { useParams, useNavigate } from "react-router-dom";
 
 // State Management
 import { sendProductDetailsRequest, sendProductsRequest } from "../redux/actions/products";
+import { addToCartAction } from "../redux/actions/cart";
 
 // Filter Product
 import filterCategory from "../Helpers/filterCategory";
+import numberWithCommas from "../Utils/numberWithCommas";
 
 // Components
 import ImageSlider from "../Components/shared/ImageSlider";
@@ -64,6 +66,13 @@ const ProductsDetails = () => {
         setQuantity(preveCouner => preveCouner - 1 < 1 ? 1 : preveCouner - 1)
     }
 
+    const addToCardHandler = () => {
+        if (product.inStock) {
+            navigate("/cart");
+            dispatch(addToCartAction({...product, image, quantity, color}))
+        }
+    }
+
     return (
         <>
             {productsList.loading && productDetails.loading ? 
@@ -87,7 +96,7 @@ const ProductsDetails = () => {
                                     <p className="fs-6 text-muted mt-3">برند <span className="text-primary">{product?.brand}</span></p>
                                     <div className="d-flex align-items-center">
                                         {product?.inStock ? (
-                                            <h4 className="text-dark border-end pe-3 me-2 m-0">قیمت : <span className="text-primary">{product?.price}</span> تومان</h4>
+                                            <h4 className="text-dark border-end pe-3 me-2 m-0">قیمت : <span className="text-primary">{numberWithCommas(product?.price)}</span> تومان</h4>
                                         ) : (
                                             <h4 className="text-danger me-3">موجود نیست</h4>
                                         )}
@@ -141,7 +150,9 @@ const ProductsDetails = () => {
                                             decrement ={decrementHandler}/>
                                     </div>
                                     <div className="d-flex align-items-center justify-content-start py-3">
-                                        <button className={`btn rounded ${product?.inStock ? "btn-primary" : "btn-danger"}`}>
+                                        <button 
+                                            className={`btn rounded ${product?.inStock ? "btn-primary" : "btn-danger"}`}
+                                            onClick={addToCardHandler}>
                                             {product?.inStock ? "مشاهده در سبد خرید" : "موجود نیست"}
                                             <AiOutlineShoppingCart className="ms-2"/>
                                         </button>
@@ -172,7 +183,7 @@ const ProductsDetails = () => {
                                 <div className="col mt-4 mt-md-0">
                                     <RiAwardLine fontSize={35} className="text-primary"/>
                                     <h4 className="text-dark mt-4">
-                                        {product?.warranty} گارانتی
+                                        {product?.warrantycd} گارانتی
                                     </h4>
                                 </div>
                             </div>

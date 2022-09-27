@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import numberWithCommas from "../../Utils/numberWithCommas";
 
 const Popular = () => {
     return (
@@ -19,7 +20,7 @@ const Popular = () => {
                     <div className="mt-2">
                         <h5 className="text-white fs-6">by <span>apple</span></h5>
                         <h3 className="text-white fs-4">iPhone 12 mini</h3>
-                        <p className="text-white mt-2">$779.99</p>
+                        <p className="text-white mt-2">{numberWithCommas(779.99)} تومان</p>
                     </div>
                     <div className="mb-3">
                         <Link to={"/product/12"}><button className="btn btn-primary">همین الان بخر</button></Link>
@@ -35,7 +36,7 @@ const Popular = () => {
                     <div className="mt-2">
                         <h5 className="text-white fs-6">by <span>apple</span></h5>
                         <h3 className="text-white fs-4">Apple AirPods Max</h3>
-                        <p className="text-white mt-2">$549.00</p>
+                        <p className="text-white mt-2">{numberWithCommas(549.00)} تومان</p>
                     </div>
                     <div className="mb-3">
                         <Link to={"/product/29"}><button className="btn btn-primary">همین الان بخر</button></Link>

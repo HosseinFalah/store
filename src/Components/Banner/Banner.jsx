@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+
+import numberWithCommas from "../../Utils/numberWithCommas.js";
 
 const Banner = () => {
     return (
@@ -9,7 +11,7 @@ const Banner = () => {
                         <div className="mt-2">
                             <h5 className="text-white fs-6">by <span>samsung</span></h5>
                             <h3 className="text-white fs-4">Galaxy Watch 6</h3>
-                            <p className="text-white mt-2">$459.39</p>
+                            <p className="text-white mt-2">{numberWithCommas(459.39)} تومان</p>
                         </div>
                         <div className="mb-3">
                             <Link to={"/product/30"}><button className="btn btn-outline-warning">همین الان بخر</button></Link>
@@ -25,7 +27,7 @@ const Banner = () => {
                         <div className="mt-2">
                             <h5 className="text-white fs-6">by <span>samsung</span></h5>
                             <h3 className="text-white fs-4">MacBook Air</h3>
-                            <p className="text-white mt-2">$809.19</p>
+                            <p className="text-white mt-2">{numberWithCommas(809.19)} تومان</p>
                         </div>
                         <div className="mb-3">
                             <Link to={"/product/4"}><button className="btn btn-primary">همین الان بخر</button></Link>

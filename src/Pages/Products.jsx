@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
 import { v4 as uuid4 } from "uuid";
 
-import { useDispatch, useSelector } from "react-redux";
 import { sendProductsRequest } from "../redux/actions/products";
 import { filterSearchAction, sendfilterSelectReducer, sortPriceAction } from "../redux/actions/filters";
 
@@ -15,9 +15,9 @@ import FilterMenu from "../Components/FilterMenu/FilterMenu";
 
 const Products = () => {
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const { filters, productsList, productsList: { loading, products }, filterSelect: { filteredProducts }} = useSelector(state => state);
-
     const sliceProducts = products.slice(0, 9);
     
     const [productsCard, setProductsCard] = useState([]);

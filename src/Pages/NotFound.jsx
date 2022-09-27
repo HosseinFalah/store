@@ -7,7 +7,7 @@ const NotFound = () => {
             <div className="text-center">
                 <h3 className="text-secondary">صفحه یافت نشد</h3>
                 <p className="text-secondary">صفحه ای که شما به دنبال آن هستید وجود ندارد یا منتقل شده است.</p>
-                <Link to={"/"}><button className="btn bg-primary bg-gradient text-white">Back To Home</button></Link>
+                <Link to={"/"}><button className="btn bg-primary bg-gradient text-white">بازگشت به صفحه اصلی</button></Link>
             </div>
         </div>
     )

@@ -8,6 +8,7 @@ import { GrPrevious, GrNext } from "react-icons/gr";
 import { MdOutlineArrowLeft } from "react-icons/md";
 
 import RatingsList from './RatingsList';
+import numberWithCommas from '../../Utils/numberWithCommas';
 
 const ProductSlider = ({productsCategory, title}) => {
     return (
@@ -51,7 +52,7 @@ const ProductSlider = ({productsCategory, title}) => {
                                         <div className="d-flex flex-column align-items-center justify-content-between">
                                             <RatingsList rating={category.rating} />
                                             {category.inStock ? (
-                                                <p className="text-primary fs-5">${category.price}</p>
+                                                <p className="text-primary fs-5">{numberWithCommas(category.price)} تومان</p>
                                             ) : (
                                                 <p className="text-danger fs-5">موجود نیست</p>
                                             )}
