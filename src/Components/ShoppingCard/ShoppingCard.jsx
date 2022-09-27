@@ -7,13 +7,15 @@ import { updateCartItemAction } from "../../redux/actions/cart";
 import numberWithCommas from "../../Utils/numberWithCommas";
 
 const ShoppingCard = ({card, removeCard}) => {
+    const { quantity } = card
+
     const dispatch = useDispatch();
 
     const incrementHandler = () => {
-        dispatch(updateCartItemAction({...card, quantity: preveCounter => preveCounter + 1}))
+        dispatch(updateCartItemAction({...card, quantity: quantity + 1}))
     }
     const decrementHandler = () => {
-        dispatch(updateCartItemAction({...card, quantity: preveCouner => preveCouner - 1 < 1 ? 1 : preveCouner - 1}))
+        dispatch(updateCartItemAction({...card, quantity: quantity - 1 < 1 ? 1 : quantity - 1}))
     }
 
     return (
@@ -25,17 +27,16 @@ const ShoppingCard = ({card, removeCard}) => {
                 <div className="col-md-5">
                     <div className="card-body">
                         <Link to={`/product/${card.id}`} className="h5 text-body text-truncate card-title">{card.name}</Link>
-                        <p className="m-0">برند {card.brand}</p>
+                        <p className="card-title py-2 m-0">برند {card.brand}</p>
                         <RatingsList rating={card.rating}/>
                         <p className={`card-title ${card.inStock ? "text-success" : "text-danger"}`}>{card.inStock ? "موجود در انبار" : "ناموجود"}</p>
                         <div className="d-flex align-items-center justify-content-start mb-2">
-                        رنگ : {card.colors.map(color => (
-                                <div className={`d-flex justify-content-center align-items-center mx-2 rounded-circle`} key={uuidv4()}>
-                                    <div className={`color bg-${color}`}></div>
-                                </div>
-                            ))}
+                        رنگ :
+                            <div className={`d-flex justify-content-center align-items-center mx-2 rounded-circle`} key={uuidv4()}>
+                                <div className={`color bg-${card.color}`}></div>
+                            </div>
                         </div>
-                        <QuantityInput qty={card.price} increment={incrementHandler} decrement={decrementHandler}/>
+                        <QuantityInput qty={card.quantity} increment={incrementHandler} decrement={decrementHandler}/>
                     </div>
                 </div>
                 <div className="col-md-3 d-flex flex-column align-items-center justify-content-center">
