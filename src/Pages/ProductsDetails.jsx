@@ -2,10 +2,12 @@ import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams, useNavigate } from "react-router-dom";
+import { toast } from 'react-toastify';
 
 // State Management
 import { sendProductDetailsRequest, sendProductsRequest } from "../redux/actions/products";
 import { addToCartAction } from "../redux/actions/cart";
+import { wishlistAction } from "../redux/actions/wishlist";
 
 // Filter Product
 import filterCategory from "../Helpers/filterCategory";
@@ -21,7 +23,7 @@ import ProductSlider from "../Components/shared/ProductSlider";
 import { BsTruck } from "react-icons/bs";
 import { FiDollarSign } from "react-icons/fi";
 import { TbTruckDelivery } from "react-icons/tb";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import { AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { AiOutlineHeart } from "react-icons/ai";
 import { RiAwardLine } from "react-icons/ri";
 import { BiTimeFive } from "react-icons/bi";
@@ -32,7 +34,7 @@ const ProductsDetails = () => {
     const params = useParams();
     const navigate = useNavigate();
 
-    const { productsList, productDetails } = useSelector((state) => state);
+    const { productsList, productDetails, wishlist } = useSelector((state) => state);
 
     const { products } = productsList;
     const { product } = productDetails;
@@ -71,7 +73,14 @@ const ProductsDetails = () => {
             navigate("/cart");
             dispatch(addToCartAction({...product, image, quantity, color}))
         }
+        toast.success("محصول جدید به سبد خرید اضافه شد", {icon: "✅"})
     }
+    
+    const addToWishListHandler = () => {
+        dispatch(wishlistAction(product));
+        toast.success("محصول به لیست علاقه مندی ها اضافه شد", {icon: "✅"})
+    }
+    const wishlistLike = wishlist.wishlist.some(i => i.id === +product?.id);
 
     return (
         <>
@@ -153,13 +162,19 @@ const ProductsDetails = () => {
                                         <button 
                                             className={`btn rounded ${product?.inStock ? "btn-primary" : "btn-danger"}`}
                                             onClick={addToCardHandler}>
-                                            {product?.inStock ? "مشاهده در سبد خرید" : "موجود نیست"}
+                                            {product?.inStock ? "افزودن به سبد خرید" : "موجود نیست"}
                                             <AiOutlineShoppingCart className="ms-2"/>
                                         </button>
-                                        <button type="button" className="btn btn-success ms-3">
+                                        <button 
+                                            type="button" 
+                                            className="btn btn-success ms-3"
+                                            onClick={addToWishListHandler}>
                                             افزودن به علاقه مندیها
-                                            <AiOutlineHeart className="ms-2"/>
-                                            {/* <AiFillHeart/> */}
+                                            {wishlistLike ? 
+                                                <AiFillHeart className="text-danger ms-2"/>
+                                                : 
+                                                <AiOutlineHeart className="ms-2"/>
+                                            }
                                         </button>
                                     </div>
                                 </div>

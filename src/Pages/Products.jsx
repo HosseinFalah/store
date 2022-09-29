@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
+import { toast } from 'react-toastify';
 import { useDispatch, useSelector } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { v4 as uuid4 } from "uuid";
 
 import { sendProductsRequest } from "../redux/actions/products";
@@ -12,10 +13,10 @@ import { FiSearch } from "react-icons/fi";
 
 import ProductCard from "../Components/ProductCard/ProductCard";
 import FilterMenu from "../Components/FilterMenu/FilterMenu";
+import { wishlistAction } from "../redux/actions/wishlist";
 
 const Products = () => {
     const dispatch = useDispatch();
-    const navigate = useNavigate();
 
     const { filters, productsList, productsList: { loading, products }, filterSelect: { filteredProducts }} = useSelector(state => state);
     const sliceProducts = products.slice(0, 9);
@@ -27,6 +28,12 @@ const Products = () => {
     //function Handler
     const searchFilterHandler = e =>  dispatch(filterSearchAction(e.target.value));
     const sortPriceHandler = value => dispatch(sortPriceAction(value));
+
+    const AddWishlistHandler = (item) => {
+        const updateItem = {...item, img: item.images[0]};
+        dispatch(wishlistAction(updateItem));
+        toast.success("محصول به لیست علاقه مندی ها اضافه شد", {icon: "✅"})
+    }
 
     useEffect(() => {
         dispatch(sendProductsRequest());
@@ -142,7 +149,10 @@ const Products = () => {
                                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
                                     {filteredProducts.length > 0 ? (
                                         productsCard.map(product => (
-                                            <ProductCard key={uuid4()} productInfo={product}/>
+                                            <ProductCard 
+                                                key={uuid4()} 
+                                                productInfo={product}
+                                                addWishList={() => AddWishlistHandler(product)}/>
                                         ))    
                                     ) : (
                                         <h4 className="w-100 display-6 text-center text-warning mt-5">محصول مورد نظر پیدا نشد</h4>

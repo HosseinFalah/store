@@ -1,18 +1,9 @@
-import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
-
 import numberWithCommas from "../../Utils/numberWithCommas";
-
 import RatingsList from "../shared/RatingsList";
 
-const ProductCard = ({productInfo, addWishList}) => {
-    const {id, name, price, rating, description, images, inStock} = productInfo;
-
-    const { wishlist } = useSelector((state) => state.wishlist);
-
-    const likeWishList = wishlist.some((i) => i.id === id)
-
+const WishListCard = ({ productInfo, removeWishList }) => {
+    const { id, name, price, rating, description, images, inStock } = productInfo
     return (
         <div className="col">
             <div className="card shadow">
@@ -41,14 +32,9 @@ const ProductCard = ({productInfo, addWishList}) => {
                             </button>
                         </Link>
                         <button 
-                            className="col btn btn-success bg-gradient"
-                            onClick={addWishList}>
-                            علاقه مندی ها
-                            {likeWishList ? 
-                                <AiFillHeart className="text-danger ms-2"/>
-                                    : 
-                                <AiOutlineHeart className="ms-2"/>
-                            }
+                            className="col btn btn-warning bg-gradient"
+                            onClick={removeWishList}>
+                                پاک کردن از لیست
                         </button>
                     </div>
                 </div>
@@ -57,4 +43,4 @@ const ProductCard = ({productInfo, addWishList}) => {
     )
 }
 
-export default ProductCard
+export default WishListCard

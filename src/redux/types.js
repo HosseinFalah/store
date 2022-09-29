@@ -13,6 +13,9 @@ export const CART_ADD_ITEM = 'CART_ADD_ITEM';
 export const CART_UPDATE_ITEM = 'CART_UPDATE_ITEM';
 export const CART_REMOVE_ITEM = 'CART_REMOVE_ITEM';
 
+// action type Add To WishList
+export const ADD_ITEM_WISHLIST = "ADD_ITEM_WISHLIST";
+
 // action type Search in products
 export const SEARCH_PRODUCTS_REQUEST = "SEARCH_PRODUCTS_REQUEST";
 export const FILTER_BY_MULTI_RANGE_REQUEST = "FILTER_BY_MULTI_RANGE_REQUEST"
