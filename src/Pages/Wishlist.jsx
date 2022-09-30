@@ -14,7 +14,7 @@ const Wishlist = () => {
 
     const removeWishlistHandler = (item) => {
         dispatch(wishlistAction(item));
-        toast.success("محصول از لیست علاقه مندی ها پاک شد", {icon: "✅"})
+        toast.success("محصول از لیست علاقه مندی پاک شد", {icon: "✅"})
     }
 
     return (

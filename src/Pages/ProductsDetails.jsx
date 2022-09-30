@@ -73,12 +73,12 @@ const ProductsDetails = () => {
             navigate("/cart");
             dispatch(addToCartAction({...product, image, quantity, color}))
         }
-        toast.success("محصول جدید به سبد خرید اضافه شد", {icon: "✅"})
+        toast.success("محصول به سبد خرید اضافه شد", {icon: "✅"})
     }
     
     const addToWishListHandler = () => {
         dispatch(wishlistAction(product));
-        toast.success("محصول به لیست علاقه مندی ها اضافه شد", {icon: "✅"})
+        toast.success("اضافه شد به لیست علاقه مندی", {icon: "✅"})
     }
     const wishlistLike = wishlist.wishlist.some(i => i.id === +product?.id);
 

@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
+import { toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -13,7 +14,10 @@ const Cart = () => {
 
     const { cartItems } = useSelector(state => state.cart);
 
-    const removeCardHandler = (id, color, category) => dispatch(removeCartAction(id, color, category));
+    const removeCardHandler = (id, color, category) => {
+        dispatch(removeCartAction(id, color, category));
+        toast.success("محصول از سبد حذف شد", {icon: "✅"})
+    }
     
     const checkOuthandler = () => cartItems.length > 0 && navigate("/checkout");
 
@@ -35,21 +39,19 @@ const Cart = () => {
             <div className="row row-cols-1 row-cols-md-2">
                 <div className="col-md-8">
                     <p className="text-muted">سبد خرید شما</p>
-                    <div className="container">
-                        {cartItems.length ? cartItems.map(card => (
-                            <ShoppingCard 
-                                key={uuidv4()} 
-                                card={card} 
-                                removeCard={() => removeCardHandler(card.id, card.color, card.category)}/>
+                    {cartItems.length ? cartItems.map(card => (
+                        <ShoppingCard 
+                            key={uuidv4()} 
+                            card={card} 
+                            removeCard={() => removeCardHandler(card.id, card.color, card.category)}/>
                         )) : 
-                            <div className="d-flex flex-column align-items-center justify-content-center vh-100">
-                                <h3 className="text-warning">سبد خرید شما خالی هست</h3>
-                                <Link to={`/products`}>
-                                    <button className="btn btn-success bg-gradient shadow mt-3">بازگشت به فروشگاه</button>
-                                </Link>
-                            </div>
-                        }
-                    </div>
+                        <div className="d-flex flex-column align-items-center justify-content-center vh-100">
+                            <h3 className="text-warning">سبد خرید شما خالی هست</h3>
+                            <Link to={`/products`}>
+                                <button className="btn btn-success bg-gradient shadow mt-3">بازگشت به فروشگاه</button>
+                            </Link>
+                        </div>
+                    }
                 </div>
                 <div className="col-md-4">
                     <p className="text-muted">خلاصه سفارش</p>

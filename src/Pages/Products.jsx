@@ -7,13 +7,14 @@ import { v4 as uuid4 } from "uuid";
 import { sendProductsRequest } from "../redux/actions/products";
 import { filterSearchAction, sendfilterSelectReducer, sortPriceAction } from "../redux/actions/filters";
 
-import { FiGrid } from "react-icons/fi";
-import { AiOutlineBars } from "react-icons/ai";
 import { FiSearch } from "react-icons/fi";
 
 import ProductCard from "../Components/ProductCard/ProductCard";
 import FilterMenu from "../Components/FilterMenu/FilterMenu";
 import { wishlistAction } from "../redux/actions/wishlist";
+import Tabs from "../Components/shared/Tabs";
+
+import { useLayout } from "../hook/Layout";
 
 const Products = () => {
     const dispatch = useDispatch();
@@ -25,6 +26,8 @@ const Products = () => {
     const [pageIndex, setPageIndex] = useState(0);
     const [currentPage, setCurrentPage] = useState(0);
 
+    const { productsListLayout } = useLayout();
+
     //function Handler
     const searchFilterHandler = e =>  dispatch(filterSearchAction(e.target.value));
     const sortPriceHandler = value => dispatch(sortPriceAction(value));
@@ -32,7 +35,7 @@ const Products = () => {
     const AddWishlistHandler = (item) => {
         const updateItem = {...item, img: item.images[0]};
         dispatch(wishlistAction(updateItem));
-        toast.success("محصول به لیست علاقه مندی ها اضافه شد", {icon: "✅"})
+        toast.success("اضافه شد به لیست علاقه مندی", {icon: "✅"})
     }
 
     useEffect(() => {
@@ -131,10 +134,7 @@ const Products = () => {
                                                 <li><a className="dropdown-item" href="!#">گران ترین</a></li>
                                             </ul>
                                         </div>
-                                        <div className="btn-group">
-                                            <button className="btn btn-outline-primary"><FiGrid/></button>
-                                            <button className="btn btn-outline-primary"><AiOutlineBars/></button>
-                                        </div>
+                                        <Tabs/>
                                     </div>
                                 </div>
                                 <div className="position-relative mb-4">
@@ -146,7 +146,11 @@ const Products = () => {
                                     />
                                     <FiSearch className="text-muted search-icon" size={20}/>
                                 </div>
-                                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
+                                <div 
+                                    className={`${productsListLayout === "grid" ?
+                                        "row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2" 
+                                        : 
+                                        ""}`}>
                                     {filteredProducts.length > 0 ? (
                                         productsCard.map(product => (
                                             <ProductCard 

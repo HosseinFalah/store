@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../../Asset/logo.svg";
+import { AiOutlineHeart } from "react-icons/ai";
 
 const Header = () => {
 
@@ -14,7 +15,10 @@ const Header = () => {
                     <i className="fa-solid fa-magnifying-glass"></i>
                 </div>
                 <form className="navbar_form">
-                    <Link to={"/login"} className="text-decoration-none text-dark btn-login">ورود | ثبت نام</Link>
+                    <Link to={"/login"} className="text-decoration-none text-dark btn-login me-2">ورود | ثبت نام</Link>
+                    <Link to={"/wishlist"}>
+                        <AiOutlineHeart className="text-danger fs-4 mx-3"/>
+                    </Link>
                     <Link to={"/cart"} className="btn-shopping">
                         <i className="fa-solid fa-cart-shopping"></i>
                         <span className="shopping-counter">0</span>

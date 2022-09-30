@@ -1,15 +1,23 @@
 import { v4 as uuidv4 } from "uuid";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+
+import { updateCartItemAction } from "../../redux/actions/cart";
+
 import RatingsList from "../shared/RatingsList";
 import QuantityInput from "../shared/QuantityInput";
-import { useDispatch } from "react-redux";
-import { updateCartItemAction } from "../../redux/actions/cart";
+
 import numberWithCommas from "../../Utils/numberWithCommas";
+import { wishlistAction } from "../../redux/actions/wishlist";
+
+import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
+import { toast } from "react-toastify";
 
 const ShoppingCard = ({card, removeCard}) => {
-    const { quantity } = card
-
+    const { id, quantity } = card
     const dispatch = useDispatch();
+
+    const { wishlist } = useSelector((state) => state.wishlist)
 
     const incrementHandler = () => {
         dispatch(updateCartItemAction({...card, quantity: quantity + 1}))
@@ -17,6 +25,14 @@ const ShoppingCard = ({card, removeCard}) => {
     const decrementHandler = () => {
         dispatch(updateCartItemAction({...card, quantity: quantity - 1 < 1 ? 1 : quantity - 1}))
     }
+
+    const like = wishlist.some((i) => i.id === id)
+
+    const addWishlistHandler = () => {
+        dispatch(wishlistAction(card))
+        toast.success("اضافه شد به لیست علاقه مندی", {icon: "✅"})
+    }
+
 
     return (
         <div className="card bg-white rounded shadow mb-3 p-1">
@@ -46,9 +62,18 @@ const ShoppingCard = ({card, removeCard}) => {
                         <span className="text-danger">موجود نیست</span>
                     )}
                     {card.freeShipping && <p className="badge rounded-pill text-bg-success">ارسال رایگان</p>}
-                        <div className="d-grid">
+                        <div className="d-grid w-100">
                             <button className="btn btn-danger bg-gradient" onClick={removeCard}>حذف کردن</button>
-                            <button className="btn btn-primary bg-gradient mt-3">افزودن به لیست علاقه مندی</button>
+                            <button 
+                                className="btn btn-primary btn-sm bg-gradient mt-3"
+                                onClick={addWishlistHandler}
+                                >افزودن به لیست علاقه مندی
+                                    {like ? 
+                                        <AiFillHeart className="text-danger ms-2"/>
+                                        : 
+                                        <AiOutlineHeart className="ms-2"/>
+                                    }
+                                </button>
                         </div>
                 </div>
             </div>
