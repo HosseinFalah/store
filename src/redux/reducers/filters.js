@@ -6,7 +6,7 @@ const initialFilters = {
   brand: [],
   rating: null,
   stock: false,
-  sort: 'featured',
+  sort: 'ویژه',
   search: '',
 }
 
@@ -80,9 +80,9 @@ export const FilterSelectReducer = (state = initialFilterSelect, action) => {
       }
 
       if (sort) {
-        if (sort === 'lowest') {
+        if (sort === 'ارزان ترین') {
           temp.sort((a, b) => a.price - b.price)
-        } else if (sort === 'highest') {
+        } else if (sort === 'گران ترین') {
           temp.sort((a, b) => b.price - a.price)
         } else {
           temp.sort((a, b) => a.id - b.id)

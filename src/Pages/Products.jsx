@@ -1,20 +1,20 @@
 import { useEffect, useState } from "react";
+import { v4 as uuid4 } from "uuid";
 import { toast } from 'react-toastify';
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { v4 as uuid4 } from "uuid";
 
 import { sendProductsRequest } from "../redux/actions/products";
 import { filterSearchAction, sendfilterSelectReducer, sortPriceAction } from "../redux/actions/filters";
+import { wishlistAction } from "../redux/actions/wishlist";
+import { useLayout } from "../hook/Layout";
 
 import { FiSearch } from "react-icons/fi";
 
 import ProductCard from "../Components/ProductCard/ProductCard";
 import FilterMenu from "../Components/FilterMenu/FilterMenu";
-import { wishlistAction } from "../redux/actions/wishlist";
 import Tabs from "../Components/shared/Tabs";
-
-import { useLayout } from "../hook/Layout";
+import SelectBox from "../Components/SelectBox/SelectBox";
 
 const Products = () => {
     const dispatch = useDispatch();
@@ -119,21 +119,10 @@ const Products = () => {
                                 <div className="d-flex align-items-center justify-content-between mb-3">
                                     <p className="text-muted m-0">30 نتیجه یافت شد</p>
                                     <div className="d-flex">
-                                        <div className="dropdown me-3">
-                                            <button 
-                                                className="btn btn-outline-primary dropdown-toggle" 
-                                                type="button" 
-                                                id="dropdownMenuButton1" 
-                                                data-bs-toggle="dropdown" 
-                                                aria-expanded="false">
-                                                    مرتب سازی
-                                            </button>
-                                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                <li><a className="dropdown-item" href="!#">ویژه</a></li>
-                                                <li><a className="dropdown-item" href="!#">ارزان ترین</a></li>
-                                                <li><a className="dropdown-item" href="!#">گران ترین</a></li>
-                                            </ul>
-                                        </div>
+                                        <SelectBox 
+                                            menuData={['ویژه', 'ارزان ترین', 'گران ترین']}
+                                            value={filters.sort}
+                                            sortProduct={sortPriceHandler}/>
                                         <Tabs/>
                                     </div>
                                 </div>
