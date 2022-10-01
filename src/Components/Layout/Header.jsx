@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../Asset/logo.svg";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BiLockAlt } from "react-icons/bi";
+import Search from "../shared/Search";
 
 const Header = () => {
 
@@ -11,10 +12,7 @@ const Header = () => {
                 <Link to={"/"} className="navbar-brand">
                     <img src={logo} alt="logo" />
                 </Link>
-                <div className="input-group flex-grow-1 w-50 me-auto">
-                    <input type="text" className="form-control-search" placeholder="جستجو در هزاران کالا ..." />
-                    <i className="fa-solid fa-magnifying-glass"></i>
-                </div>
+                <Search/>
                 <form className="navbar_form">
                     <Link to={"/login"} className="btn btn-outline-primary"><BiLockAlt className="me-2"/>وارد شوید</Link>
                     <Link to={"/wishlist"}>

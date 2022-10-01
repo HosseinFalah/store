@@ -6,6 +6,21 @@ body{
     background: #f0f0f0;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #a6a4b0;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
 a{
     text-decoration: none;
 }
@@ -288,6 +303,16 @@ polyline{
 .disable{
     background: #d9d9d9;
     opacity: 0.8;
+}
+
+.search-menu{
+    width: 60%;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.search-menu-item:hover{
+    background: #f8f8f8;
 }
 
 @media only screen and (max-width: 869px) {
