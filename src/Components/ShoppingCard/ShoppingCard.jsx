@@ -37,10 +37,10 @@ const ShoppingCard = ({card, removeCard}) => {
     return (
         <div className="card bg-white rounded shadow mb-3 p-1">
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-12 col-xl-4">
                     <img src={card.images[0]} className="img-fluid rounded-start" alt={card.name} />
                 </div>
-                <div className="col-md-5">
+                <div className="col-12 col-xl-5">
                     <div className="card-body">
                         <Link to={`/product/${card.id}`} className="h5 text-body text-truncate card-title">{card.name}</Link>
                         <p className="card-title py-2 m-0">برند {card.brand}</p>
@@ -55,7 +55,7 @@ const ShoppingCard = ({card, removeCard}) => {
                         <QuantityInput qty={card.quantity} increment={incrementHandler} decrement={decrementHandler}/>
                     </div>
                 </div>
-                <div className="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                <div className="col-12 col-xl-3 d-flex flex-column align-items-center justify-content-center">
                     {card.inStock ? (
                         <h4 className="text-primary">{numberWithCommas(card.price)} تومان</h4>
                     ) : (

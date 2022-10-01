@@ -33,7 +33,7 @@ const Home = () => {
                     ) : (
                 <main className="container-fluid">
                     <Banner/>
-                    <div className="service-box mt-4">
+                    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 mt-4 m-0">
                         <ServiceBox/>
                     </div>
                     <div className="bg-white rounded shadow mt-4">

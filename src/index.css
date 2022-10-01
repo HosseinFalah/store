@@ -14,24 +14,6 @@ a{
     padding: 15px 0px;
 }
 
-.btn-login{
-    border: 1px solid #ebebeb;
-    padding: 8px 20px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-.btn-login::before{
-    content: "";
-    background: url("/public/Asset/icon/exit.png");
-    width: 15px;
-    height: 15px;
-    margin: 0px 0px -3px 5px;
-    fill: #414141;
-    display: inline-block;
-    background-size: cover;
-}
-
 .form-control-search{
     position: relative;
     border: none;
@@ -98,12 +80,6 @@ a{
 .banner-item-third{
     grid-column: 2 / 4;
     grid-row: 1 / 4;
-}
-
-.service-box{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 15px;
 }
 
 .swiper-wrapper {

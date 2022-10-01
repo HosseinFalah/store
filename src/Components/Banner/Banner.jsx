@@ -14,7 +14,7 @@ const Banner = () => {
                             <p className="text-white mt-2">{numberWithCommas(459.39)} تومان</p>
                         </div>
                         <div className="mb-3">
-                            <Link to={"/product/30"}><button className="btn btn-outline-warning">همین الان بخر</button></Link>
+                            <Link to={"/product/30"}><button className="btn btn-outline-warning btn-sm">همین الان بخر</button></Link>
                         </div>
                     </div>
                     <div className="col-6">
@@ -30,7 +30,7 @@ const Banner = () => {
                             <p className="text-white mt-2">{numberWithCommas(809.19)} تومان</p>
                         </div>
                         <div className="mb-3">
-                            <Link to={"/product/4"}><button className="btn btn-primary">همین الان بخر</button></Link>
+                            <Link to={"/product/4"}><button className="btn btn-primary btn-sm">همین الان بخر</button></Link>
                         </div>
                     </div>
                     <div className="col-6">
@@ -42,7 +42,7 @@ const Banner = () => {
                     <h3 className="text-white fs-2">اپل آیفون 11</h3>
                     <p className="text-white mt-4">آیفون 11 اپل یک گوشی هوشمند فوق العاده است که دارای ویژگی های با کیفیت زیادی است. این دستگاه دارای بدنه ای ضد آب و ضد گرد و غبار است که از جذابیت های کلیدی دستگاه است.</p>
                     <div className="mb-2">
-                        <Link to={"/product/2"}><button className="btn btn-outline-warning">همین الان بخر</button></Link>
+                        <Link to={"/product/2"}><button className="btn btn-outline-warning btn-sm">همین الان بخر</button></Link>
                     </div>
                 </div>
                 <div className="col-6">

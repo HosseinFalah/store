@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../../Asset/logo.svg";
 import { AiOutlineHeart } from "react-icons/ai";
+import { BiLockAlt } from "react-icons/bi";
 
 const Header = () => {
 
@@ -15,7 +16,7 @@ const Header = () => {
                     <i className="fa-solid fa-magnifying-glass"></i>
                 </div>
                 <form className="navbar_form">
-                    <Link to={"/login"} className="text-decoration-none text-dark btn-login me-2">ورود | ثبت نام</Link>
+                    <Link to={"/login"} className="btn btn-outline-primary"><BiLockAlt className="me-2"/>وارد شوید</Link>
                     <Link to={"/wishlist"}>
                         <AiOutlineHeart className="text-danger fs-4 mx-3"/>
                     </Link>
