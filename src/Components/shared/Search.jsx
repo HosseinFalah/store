@@ -14,16 +14,11 @@ const Search = () => {
     const dispatch = useDispatch();
     const { searchProducts: { pages, products } , productsList } = useSelector(state => state);
 
-    console.log(pages);
-    console.log(products);
-
     const [searchQuery, setSearchQuery] = useState("");
 
     useEffect(() => {
         dispatch(searchProductsRequest(searchQuery, sidebarMenu, productsList.products))
     }, [productsList, searchQuery]);
-
-
 
     return (
         <div className="input-group flex-grow-1 w-50 me-auto">
