@@ -1,29 +1,67 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../Asset/logo.svg";
+
+import Search from "../shared/Search";
+
 import { AiOutlineHeart } from "react-icons/ai";
 import { BiLockAlt } from "react-icons/bi";
-import Search from "../shared/Search";
+import logo from "../../Asset/logo.svg";
+
 
 const Header = () => {
 
+    const [screenSize, setScreenSize] = useState(null);
+
+
+    useEffect(() => {
+        const handleResize = () => setScreenSize(window.innerWidth)
+  
+        window.addEventListener("resize", handleResize)
+  
+        handleResize();
+  
+        return () => window.removeEventListener("resize", handleResize)
+    }, []);
+
     return (
         <nav className="navbar sticky-top bg-white shadow-lg">
-            <div className="container-fluid">
-                <Link to={"/"} className="navbar-brand">
-                    <img src={logo} alt="logo" />
-                </Link>
-                <Search/>
-                <form className="navbar_form">
-                    <Link to={"/login"} className="btn btn-outline-primary"><BiLockAlt className="me-2"/>وارد شوید</Link>
-                    <Link to={"/wishlist"}>
-                        <AiOutlineHeart className="text-danger fs-4 mx-3"/>
+            {screenSize < 715 ? (
+                <>
+                    <div className="container-fluid mb-3">
+                        <Link to={"/"} className="navbar-brand mx-auto">
+                            <img src={logo} alt="logo" />
+                        </Link>
+                    </div>
+                    <Search screenSize={screenSize}/>
+                    <form className="navbar_form">
+                        <Link to={"/login"} className="btn btn-outline-primary"><BiLockAlt className="me-2"/>وارد شوید</Link>
+                        <Link to={"/wishlist"}>
+                            <AiOutlineHeart className="text-danger fs-4 mx-3"/>
+                        </Link>
+                        <Link to={"/cart"} className="btn-shopping">
+                            <i className="fa-solid fa-cart-shopping"></i>
+                            <span className="shopping-counter">0</span>
+                        </Link>
+                    </form>
+                </>
+            ) : (
+                <div className="container-fluid">
+                    <Link to={"/"} className="navbar-brand">
+                        <img src={logo} alt="logo" />
                     </Link>
-                    <Link to={"/cart"} className="btn-shopping">
-                        <i className="fa-solid fa-cart-shopping"></i>
-                        <span className="shopping-counter">0</span>
-                    </Link>
-                </form>
-            </div>
+                    <Search/>
+                    <form className="navbar_form">
+                        <Link to={"/login"} className="btn btn-outline-primary"><BiLockAlt className="me-2"/>وارد شوید</Link>
+                        <Link to={"/wishlist"}>
+                            <AiOutlineHeart className="text-danger fs-4 mx-3"/>
+                        </Link>
+                        <Link to={"/cart"} className="btn-shopping">
+                            <i className="fa-solid fa-cart-shopping"></i>
+                            <span className="shopping-counter">0</span>
+                        </Link>
+                    </form>
+                </div>
+            )}
         </nav>
     )
 }

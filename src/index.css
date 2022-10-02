@@ -361,6 +361,10 @@ polyline{
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
+
+    .search-menu{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -406,5 +410,9 @@ polyline{
     .popular-item-third{
         grid-column: 1 / 4;
         grid-row: 4 / 4;
+    }
+
+    .search-menu{
+        width: 65vh;
     }
 }

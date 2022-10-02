@@ -8,7 +8,8 @@ import { searchProductsRequest } from "../../redux/actions/products";
 
 import { sidebarMenu } from "../../Asset/data/navbar_menu";
 
-const Search = () => {
+const Search = ({screenSize}) => {
+
     const searchQueryRef = useRef(null);
     
     const dispatch = useDispatch();
@@ -24,12 +25,12 @@ const Search = () => {
         <div className="input-group flex-grow-1 w-50 me-auto">
             <input
                 type="text"
-                className="form-control-search"
+                className={`${screenSize < 715 ? "form-control mx-2" : "form-control-search"}`}
                 ref={searchQueryRef}
                 placeholder="جستجو در هزاران کالا ..."
                 onChange={(e) => setSearchQuery(e.target.value)} />
-            <i className="fa-solid fa-magnifying-glass"></i>
-            <div className={`position-absolute top-100 bg-white rounded shadow search-menu ${searchQuery ? "" : "d-none"} mt-3 p-2`}>
+                {screenSize < 715 ? null : <i className="fa-solid fa-magnifying-glass"></i>}
+            <div className={`position-absolute top-100 bg-white rounded shadow search-menu ${searchQuery ? "" : "d-none"} mt-5 mt-md-3 p-2`}>
                 <div className="lh-lg mt-2">
                     <h4 className="text-dark">صفحات</h4>
                     {pages.map(page => (
