@@ -27,14 +27,14 @@ const Search = () => {
 
     return (
         <div className="input-group flex-grow-1 w-50 me-auto">
-            <input 
-                type="text" 
-                className="form-control-search" 
+            <input
+                type="text"
+                className="form-control-search"
                 ref={searchQueryRef}
                 placeholder="جستجو در هزاران کالا ..."
                 onChange={(e) => setSearchQuery(e.target.value)} />
             <i className="fa-solid fa-magnifying-glass"></i>
-            <div className="position-absolute top-100 bg-white rounded shadow search-menu mt-3 p-2">
+            <div className={`position-absolute top-100 bg-white rounded shadow search-menu ${searchQuery ? "" : "d-none"} mt-3 p-2`}>
                 <div className="lh-lg mt-2">
                     <h4 className="text-dark">صفحات</h4>
                     {pages.map(page => (
@@ -43,6 +43,7 @@ const Search = () => {
                             <span>{page.name}</span>
                         </Link>
                     ))}
+                    {pages.length === 0 && <p className="text-danger">نتیجه ای پیدا نشد</p>}
                 </div>
                 <div className="mt-2 lh-lg">
                     <h4 className="text-dark">محصولات</h4>
@@ -52,6 +53,7 @@ const Search = () => {
                             <span >{product.name}</span>
                         </Link>
                     ))}
+                    {products.length === 0 && <p className="text-danger">نتیجه ای پیدا نشد</p>}
                 </div>
             </div>
         </div>
