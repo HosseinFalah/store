@@ -5,7 +5,7 @@ import Search from "../shared/Search";
 
 import { AiOutlineHeart } from "react-icons/ai";
 import { BiLockAlt } from "react-icons/bi";
-import logo from "../../Asset/logo.svg";
+import logo from "../../Asset/LogoCompany.png";
 
 
 const Header = () => {
@@ -29,7 +29,7 @@ const Header = () => {
                 <>
                     <div className="container-fluid mb-3">
                         <Link to={"/"} className="navbar-brand mx-auto">
-                            <img src={logo} alt="logo" />
+                            <img src={logo} className="logo" alt="logo" />
                         </Link>
                     </div>
                     <Search screenSize={screenSize}/>
@@ -47,7 +47,7 @@ const Header = () => {
             ) : (
                 <div className="container-fluid">
                     <Link to={"/"} className="navbar-brand">
-                        <img src={logo} alt="logo" />
+                        <img src={logo} className="logo" alt="logo" />
                     </Link>
                     <Search/>
                     <form className="navbar_form">

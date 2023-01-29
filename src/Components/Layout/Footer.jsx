@@ -2,7 +2,7 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 import { BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
 import { SiAparat } from "react-icons/si";
 
-import Logo from "../../Asset/logo.svg";
+import Logo from "../../Asset/LogoCompany.png";
 
 const Footer = () => {
 
@@ -14,7 +14,7 @@ const Footer = () => {
         <footer className="container-fluid bg-white mt-3">
             <div className="py-4">
                 <div className="d-flex align-items-center justify-content-between">
-                    <img src={Logo} alt="" />
+                    <img src={Logo} className="logo_footer" alt="logo" />
                     <button className="btn btn-warning bg-gradient" onClick={scrolTop}>بازگشت به بالا <AiOutlineArrowUp/></button>
                 </div>
                 <div className="d-flex gap-4 mt-3">

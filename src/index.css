@@ -25,6 +25,18 @@ a{
     text-decoration: none;
 }
 
+.logo{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
+.logo_footer{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
 .navbar{
     padding: 15px 0px;
 }
